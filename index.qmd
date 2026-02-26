@@ -1,1 +1,123 @@
-## Authors
+# Authors
+
+Mourad Elfaham^1^, Aya Attia^1^, Sara Ibrahim Abdelkader^2\*^, Rahma Alaa Abdelhafez^2^, Mohammed Ghanem^2^, Ahmed Azab^2^, Belgin Ahmed Nagah^2^, Nour Atif^2^, Maha Moemen^2^, Ashraf Nabhan^1,3^
+
+# Affiliation
+
+^1^ Faculty of Medicine, Ain Shams University, Cairo, Egypt.
+
+^2^ Faculty of Medicine, Galala University, Attaka, Suez, Egypt.
+
+^3^ Faculty of Medicine, MTI University, Cairo, Egypt.
+
+\* Corresponding author: Sara Ibrahim Abdelkader. Faculty of Medicine, Galala University, Attaka, Suez, Egypt. Email: [sara.elzeftawy\@gu.edu.eg](mailto:sara.elzeftawy@gu.edu.eg), ORCID: [0009-0002-5877-4722](https://orcid.org/0009-0002-5877-4722)
+
+**Word count:** 2500
+
+# Abstract
+
+Klippel–Trenaunay syndrome is a rare congenital vascular disorder that may be complicated by Kasabach Merritt syndrome, posing significant maternal and fetal risks during pregnancy.
+
+We report the case of a 28-year-old pregnant woman with known Klippel–Trenaunay syndrome who developed Kasabach–Merritt phenomenon during pregnancy. The fetus suffered severe growth restriction and absent end-diastolic flow on umbilical artery Doppler. A cesarean section was performed at 35 weeks of gestation. A growth-restricted neonate was delivered and managed accordingly.
+
+This case highlights the complexity of managing pregnancy in women with Klippel–Trenaunay syndrome complicated by Kasabach Merritt syndrome and emphasizes the importance of multidisciplinary surveillance and timely delivery.
+
+Keywords: Klippel–Trenaunay syndrome; angioosteohypertrophy syndrome; Kasabach Merritt syndrome; fetal growth restriction; high-risk pregnancy
+
+# Introduction
+
+Klippel-Trenaunay syndrome (KTS) is a rare genetic syndrome characterized by localized cutaneous hemangiomas, venous varicosities, and asymmetric osseous hypertrophy of the ipsilateral extremities. [@Pavone2023]
+
+Complications at delivery can include disseminated intravascular coagulation (DIC) and massive hemorrhage. Coagulopathic events may be due to persistent blood loss or may reflect the development of Kasabach-Merritt syndrome (KMS). KMS is defined by thrombocytopenia of varying degrees and a consumptive coagulopathy seen in association with hemangiomas. A microangiopathic hemolytic anemia may also be present. [@Tian2026]
+
+Fetal growth restriction (FGR) with abnormal umbilical artery Doppler findings, such as absent end-diastolic flow, reflects placental insufficiency and is associated with adverse perinatal outcomes. [@Akay2025]
+
+The occurrence of KTS complicated by KMS during pregnancy is extremely rare, and, to our knowledge, only two cases have been reported. [@Neubert1995; @Kanmani2021]
+
+# Case Presentation
+
+A 28-year-old multigravida woman (G3, P2) presented at 35 weeks' gestation for antenatal evaluation. She had a known diagnosis of KTS involving \[affected limb/region\], diagnosed at \[age/year\].
+
+Maternal Clinical Findings
+
+• Blood pressure: \[value\]
+
+• Presence of vascular malformations: \[description\]
+
+• Symptoms suggestive of KMS: \[e.g., bruising, bleeding, pain\]
+
+• Symptoms suggestive of KMP: \[e.g., bruising, bleeding, pain\]
+
+Laboratory investigations revealed:
+
+• Platelet count: \[value\]
+
+• Fibrinogen: \[value\]
+
+• D-dimer: \[value\]
+
+These findings were consistent with Kasabach–Merritt syndrome.
+
+These findings were consistent with Kasabach–Merritt phenomenon.
+
+Fetal Assessment
+
+Ultrasound examination at \[gestational age\] weeks demonstrated:
+
+• Estimated fetal weight below the \[percentile\]
+
+• Abnormal umbilical artery Doppler with absent end-diastolic blood flow • Amniotic fluid index: \[value\]
+
+Based on worsening fetal Doppler parameters and maternal risks, a multidisciplinary team involving obstetrics, hematology, anesthesia, and neonatology recommended delivery.
+
+Delivery and Neonatal Outcome
+
+A cesarean section was performed at 35 weeks of gestation under \[type of anesthesia\]. A female/male neonate weighing \[birth weight\] g was delivered with Apgar scores of \[values\] at 1 and 5 minutes.
+
+The neonate required \[NICU admission / respiratory support / observation\]. Maternal postoperative recovery was \[uneventful/complicated by…\].
+
+Maternal admission to ICU
+
+\[course in details\]
+
+# Discussion
+
+KTS is defined as a triad of clinical features, including unilateral cutaneous hemangiomas, varicose veins, soft tissue, and asymmetric osseous hypertrophy of the ipsilateral extremities. Cases may also have arteriovenous fistulae. A review KTS indicates a consistent absence or major atresia of the deep venous vascular system, causing limb elongation, venous stasis, varicosities, and edema. The etiology of KTS may reflect a mesodermal defect operative at angiogenesis and therefore explain the vascular abnormalities that define the syndrome. Complications in the affected extremity may include stasis dermatitis, skin ulceration, and recurrent hemarthrosis-all of which may require amputation of the limb for management.
+
+Our patient's refractory coagulopathy prompted the diagnostic consideration of KMS. First reported in 1940, the syndrome consists of thrombocytopenia and a consumptive coagulopathy seen in association with hemangiomas. Consistent laboratory abnormalities include thrombocytopenia, decreased fibrinogen, and coagulation factors II, V, and Vill. Increased PT, PIT, and fibrin split products are also invariably present. A similar clinical presentation has been reported in association with KTS. The exact mechanism by which the thrombocytopenia and coagulopathy develop is unknown. A combination of venous stasis and abnormal endothelial cells within the hemangiomas likely functions to increase platelet pooling and destruction with activation of the coagulation cascade, resulting in a localized and self-perpetuating coagulopathy. Once established, the local consumption of clotting factors and platelets persisted in the hemangioma and resulted in hemorrhage at the incision site. A prominent feature of this patient's persistent coagulopathy was the markedly elevated fibrin split products. This finding prompted our decision to use the plasminogen-activator inhibitory effects of aminocaproic acid after the failure of blood product replacement therapy to correct her coagulopathy.
+
+# Conclusion
+
+Pregnancy in women with Klippel–Trenaunay syndrome complicated by Kasabach–Merritt phenomenon is extremely rare and high risk. Intensive antenatal surveillance and multidisciplinary management are essential to optimize maternal and perinatal outcomes.
+
+# Declarations
+
+## Ethics approval and consent to participate
+
+Not applicable.
+
+## Consent for publication
+
+A written consent for publication has been obtained from the patient.
+
+## Availability of data and materials
+
+The data and materials supporting the conclusions of this article are available as a supplementary materials.
+
+## Competing interests
+
+The authors declare that they have no competing interests.
+
+## Funding
+
+This research received no specific grant from any funding agency in the public, commercial or not-for-profit sectors.
+
+## Authors' contributions
+
+SIA, ME, AFN contributed to writing the first draft of the manuscript. All the authors revised the manuscript critically for important intellectual content. All authors approved the final version of the manuscript.
+
+## Acknowledgements
+
+We sincerely thank the healthcare providers at Ain Shams University Hospital of Obstetrics and Gynecology for their dedication and commitment to patient care in the operating room. We deeply appreciate their contributions and the valuable role they play in ensuring high-quality surgical care.
+
+# References
