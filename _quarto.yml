@@ -10,17 +10,15 @@ format:
     comments:
       hypothesis: true
   docx: default
-  jats: default
-
-  # (other formats)
-  # pdf: default
+  pdf: default
 
 execute:
   freeze: true
 
 editor: visual
 
-title: ktkm
+title: KTS complicated by KMS during pregnancy
 
 bibliography: references.bib
+csl: vancouver.csl
 
