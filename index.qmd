@@ -96,7 +96,7 @@ The patient was discharged on day ten postoperatively. She was seen on day 19 in
 
 # Discussion
 
-This case report describes the course of a pregnancy in a woman with Klippel–Trenaunay syndrome complicated by Kasabach–Merritt syndrome and fetal growth restriction. This is an extremely rare scenario. True maternal KMS complicating KTS in pregnancy has been reported in the literature by only a **single case report** [@Neubert1995].
+This case report describes the course of a pregnancy in a woman with Klippel–Trenaunay syndrome complicated by Kasabach–Merritt syndrome and fetal growth restriction. This is an extremely rare scenario. Maternal KMS complicating KTS in pregnancy has been reported in the literature by only **two case reports** [@Neubert1995; @Kanmani2021].
 
 KTS requires at least **two of three** features of the classic triad — (1) capillary malformation (port-wine stain), (2) venous and/or lymphatic malformations/varicosities, and (3) soft tissue and/or bony hypertrophy of one or more limbs — in the **absence** of arterio-venous malformation (which would indicate Parkes Weber syndrome instead). [@goldenberg2025; @ISSVA2018; @Blei2024]
 
