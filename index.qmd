@@ -96,11 +96,11 @@ The patient was discharged on day ten postoperatively. She was seen on day 19 in
 
 # Discussion
 
-The occurrence of KTS complicated by KMS during pregnancy is extremely rare, and, to our knowledge, only three cases have been reported. [@Neubert1995; @Kanmani2021; @zhang2019]
+The occurrence of KTS complicated by KMS during pregnancy is extremely rare, and, to our knowledge, only three cases have been reported. [@Neubert1995; @Kanmani2021; ]
 
 KTS is defined as a triad of clinical features, including unilateral cutaneous hemangiomas, varicose veins, soft tissue, and asymmetric osseous hypertrophy of the ipsilateral extremities. Cases may also have arteriovenous fistulae. A review KTS indicates a consistent absence or major atresia of the deep venous vascular system, causing limb elongation, venous stasis, varicosities, and edema. The etiology of KTS may reflect a mesodermal defect operative at angiogenesis and therefore explain the vascular abnormalities that define the syndrome. Complications in the affected extremity may include stasis dermatitis, skin ulceration, and recurrent hemarthrosis-all of which may require amputation of the limb for management.
 
-This case report describes the course of a pregnancy in a woman with Klippel–Trenaunay syndrome complicated by Kasabach–Merritt syndrome and fetal growth restriction. This is an extremely rare scenario. Maternal KMS complicating KTS in pregnancy has been reported in the literature by only **two case reports** [@Neubert1995; @Kanmani2021].
+This case report describes the course of a pregnancy in a woman with Klippel–Trenaunay syndrome complicated by Kasabach–Merritt syndrome and fetal growth restriction. This is an extremely rare scenario. Maternal KMS complicating KTS in pregnancy has been reported in the literature by only **three case reports** [@Neubert1995; @Kanmani2021; @zhang2019].
 
 KTS requires at least **two of three** features of the classic triad — (1) capillary malformation (port-wine stain), (2) venous and/or lymphatic malformations/varicosities, and (3) soft tissue and/or bony hypertrophy of one or more limbs — in the **absence** of arterio-venous malformation (which would indicate Parkes Weber syndrome instead). [@goldenberg2025; @ISSVA2018; @Blei2024]
 
