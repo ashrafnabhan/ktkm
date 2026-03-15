@@ -32,8 +32,6 @@ Complications at delivery can include disseminated intravascular coagulation (DI
 
 Fetal growth restriction (FGR) with abnormal umbilical artery Doppler findings, such as absent end-diastolic flow, reflects placental insufficiency and is associated with adverse perinatal outcomes. [@Akay2025]
 
-The occurrence of KTS complicated by KMS during pregnancy is extremely rare, and, to our knowledge, only two cases have been reported. [@Neubert1995; @Kanmani2021]
-
 # Case Presentation
 
 A 28-year-old multigravida woman (G3, P2 both by cesarean sections) presented at 30 weeks by clinical significant hematuria.
@@ -95,6 +93,8 @@ On day 7, her hemogbin showed a plateau at 10.1 g/dl and remained for there days
 The patient was discharged on day ten postoperatively. She was seen on day 19 in the outpatient clinic. General condition was fair, lax abdomen, and skin sutures were removed with a perfect healing of the abdominal incision.
 
 # Discussion
+
+The occurrence of KTS complicated by KMS during pregnancy is extremely rare, and, to our knowledge, only three cases have been reported. [@Neubert1995; @Kanmani2021; @zhang2019]
 
 KTS is defined as a triad of clinical features, including unilateral cutaneous hemangiomas, varicose veins, soft tissue, and asymmetric osseous hypertrophy of the ipsilateral extremities. Cases may also have arteriovenous fistulae. A review KTS indicates a consistent absence or major atresia of the deep venous vascular system, causing limb elongation, venous stasis, varicosities, and edema. The etiology of KTS may reflect a mesodermal defect operative at angiogenesis and therefore explain the vascular abnormalities that define the syndrome. Complications in the affected extremity may include stasis dermatitis, skin ulceration, and recurrent hemarthrosis-all of which may require amputation of the limb for management.
 
