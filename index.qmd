@@ -36,7 +36,7 @@ This case report details the clinical course and successful management of a preg
 
 # Case Presentation
 
-A 28-year-old multigravida, P2CS+1 (1L) was first admitted at 30+1 weeks of gestation for clinically significant hematuria on the 16th of December in Ain Shams University Hospital, Egypt. The timeline is detailed in Table 1.
+A 28-year-old multigravida, P2CS+1 (1L) was first admitted at 30+1 weeks of gestation for clinically significant hematuria on the 16th of December in Ain Shams University Hospital, Egypt. The timeline is detailed in @tbl-1
 
 The patient was first diagnosed at two years of age with Klippel-Trenaunay syndrome (KTS) involving both lower limbs, back, pelvis, and urinary bladder. She underwent surgery for varicose veins seven years ago, as well as orthopedic surgery for the insertion of plates and screws a year and a half ago.
 
@@ -44,11 +44,11 @@ Her obstetric history includes two cesarean sections. Her first pregnancy was se
 
 On examination, her blood pressure was 120/80 mmHg, temperature was 36.2° C, and heart rate was 68 bpm. Port-wine stains were seen in the back and gluteal region with discrepancy in the length of both lower limbs.
 
-A complete blood picture (CBC) revealed microcytic hypochromic anemia (Hb 7.0 g/dl, hematocrit 23.0%) and thrombocytopenia (128,000 u/L), for which she received six units of packed cell transfusion to correct the worsening hemoglobin. ABO and Rh typing indicated B positive blood. Viral workup was negative for HCV, HIV, and HBV.
+A complete blood picture (CBC) revealed microcytic hypochromic anemia (hemoglobin 7.0 g/dl, hematocrit 23.0%) and thrombocytopenia (128,000 u/L), for which she received six units of packed cell transfusion to correct the worsening hemoglobin. ABO and Rh typing indicated B positive blood. Viral workup was negative for Hepatitis C and B and human immunodeficiency virus (HIV).
 
 Ultrasonography (US) demonstrated estimated fetal weight below the 10th percentile consistent with intrauterine growth restriction (IUGR), and an abnormal umbilical artery Doppler showing absent end-diastolic blood flow.
 
-Urological consultation was sought for the significant hematuria. Initial management included intravenous (IV) tranexamic acid and insertion of an indwelling silicone three-way urinary catheter for one week.
+Urological consultation was sought for the significant hematuria. Initial management included intravenous tranexamic acid and insertion of an indwelling silicone three-way urinary catheter for one week.
 
 On December 18^th^, pelviabdominal magnetic resonance imaging (MRI) was performed, demonstrating a gravid uterus with a single intrauterine pregnancy in cephalic lie with unremarkable placental location and attachment. Compression of the left ovarian vein and the left common iliac vein by the gravid uterus was seen, with associated slowing and dilatation of both veins. Extensive dilated tubular tortuous lesions suggestive of varicosities were observed in the pelvic, perivesical, perineal, and gluteal regions, more prominent on the left side, showing a “bag of worms” appearance. Similar lesions were present in breast subcutaneous tissue bilaterally. The urinary bladder contained blood products.\
 The liver was mildly enlarged with noticeable vascular compression, while the gall bladder, spleen, and kidneys were unremarkable. Minimal bilateral pleural effusion was noticed.
@@ -67,23 +67,128 @@ A contrast-enhanced pelvic MRI was done on January 1, showing extensive venous m
 The patient was monitored daily with regular assessment of vital parameters, general condition, fetal kicks, vaginal bleeding, uterine contractions, and evidence of membrane rupture. She received one unit of packed RBCs on January 2, followed by an additional unit on January 5.  
 
 At 35 weeks of gestation, based on worsening fetal Doppler parameters and maternal risks, a multidisciplinary team involving obstetrics, hematology, anesthesia, and neonatology recommended delivery by emergency cesarean section. Subsequently, on the 18^th^ of January, a cesarean section was performed at 35 weeks of gestation under general endotracheal anesthesia.\
-Vertical midline abdominal incision was made revealing significant varicosities in the anterior abdominal wall, over the lower uterine segment, and in the interface between the uterus and the bladder. Lower segment incision of the uterus was made to deliver the fetus and placenta. This was followed by closure of the uterine wall in two layers. Placenta was complete, perineum intact. Hemostasis secured. No intraperitoneal drains were left. Only a subcutaneous drain was inserted for seven days. The skin was closed by interrupted mattress sutures.
+Vertical midline abdominal incision was made revealing significant varicosities in the anterior abdominal wall, over the lower uterine segment, and in the interface between the uterus and the bladder. Lower segment incision of the uterus was made to deliver the fetus and placenta. This was followed by closure of the uterine wall in two layers. Placenta was complete, perineum intact. Hemostasis was secured and no intraperitoneal drains were left. Only a subcutaneous drain was inserted for seven days. The skin was closed by interrupted mattress sutures.
 
 A female neonate weighing 1900 g was delivered with Apgar scores of 7 and 9 at 1 and 5 minutes respectively. The neonate did not receive vaccination due to low birth weight and did not require observation or respiratory support.
 
-Postoperatively, the mother was admitted to the ICU due to hemoperitoneum. Her pharmacological therapy included low-molecular-weight heparin (LMWH), tranexamic acid, ceftriaxone, pantoprazole, IV paracetamol, and charcoal-based herbal tablets. 
+Postoperatively, the mother was admitted to the intensive care unit (ICU) due to hemoperitoneum. Her pharmacological therapy included low-molecular-weight heparin (LMWH), tranexamic acid, ceftriaxone, pantoprazole, intravenous paracetamol, and charcoal-based herbal
 
-Slight hematuria was noted on the first post-operative day, and labs showed a declining hemoglobin and platelet count, as well as markedly elevated LDH, alkaline phosphatase, creatine kinase, and bilirubin. LMWH therapy was thereby put on hold, and the patient was given packed red blood cells and fresh frozen plasma, receiving a total of ten units of packed cell transfusion and fresh frozen plasma (with a one-to-one ratio) over the course of seven days. Additional laboratory investigations are demonstrated in (Table 2)
+Slight hematuria was noted on the first post-operative day, and labs showed a declining hemoglobin and platelet count, as well as markedly elevated LDH, alkaline phosphatase, creatine kinase, and bilirubin. LMWH therapy was thereby put on hold, and the patient was given packed red blood cells and fresh frozen plasma, receiving a total of ten units of packed cell transfusion and fresh frozen plasma (with a one-to-one ratio) over the course of seven days. Additional laboratory investigations are demonstrated in @tbl-2
 
 On the second post-operative day, the patient's hemoglobin and platelet count rapidly deteriorated, decreasing from 9.6g/dl and 218,000 plt to 7.6g/dl and 104,000 plt respectively. Replacement with blood products continued.
 
-On post-operative day three, TVUS revealed marked hemoperitoneum with a localized hematoma related to the lower uterine segment, approximately 12 cm in maximum length. Labs showed low fibrinogen (1.4g/l) and significantly elevated D-dimer (35.200 ug/mlFEU). These findings were suggestive of Kasabach Meritt Syndrome.
+On post-operative day three, TVUS revealed marked hemoperitoneum with a localized hematoma related to the lower uterine segment, approximately 12 cm in maximum length.
 
-A decision for conservative management was made by the attending consultant and the head of the unit. Pharmacological therapy was adjusted; LWMH was resumed, in addition to tranexamic acid, 1 amp calcium, 1 amp dexamethasone, magnesium sulfate, cefepime, omeprazole, clindamycin, and IV paracetamol.
+On post-operative day four, labs showed low fibrinogen (1.4g/l) and significantly elevated D-dimer (35.200 ug/mlFEU). These findings were suggestive of Kasabach Meritt Syndrome.
+
+A decision for conservative management was made by the attending consultant and the head of the unit. Pharmacological therapy was adjusted; LWMH was resumed, in addition to tranexamic acid, 1 amp calcium, 1 amp dexamethasone, magnesium sulfate, cefepime, omeprazole, clindamycin, and intravenous paracetamol.
 
 On day 7, her hemoglobin stabilized at 10.1 g/dl and remained stable over the following three days, while her platelet count remained low at 64,000.
 
 After further stabilization, the patient was discharged on day ten postoperatively. She was seen on day nineteen in the outpatient clinic. General condition was fair, lax abdomen, and skin sutures were removed with optimal healing of the abdominal incision.
+
++--------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Date               | Timeline                                                                                                                                                                                                                                       |
++====================+================================================================================================================================================================================================================================================+
+| December 16,2025   | Admission of a 28-year-old multigravida, P2CS+1 (1L) with known diagnosis of Klippel-Trenaunay syndrome (KTS) at 30+1weeks for hematuria.                                                                                                      |
+|                    |                                                                                                                                                                                                                                                |
+|                    | On examination there were differences in the length of both lower limbs and port-wine stains in the gluteal and back regions.                                                                                                                  |
+|                    |                                                                                                                                                                                                                                                |
+|                    | CBC revealed microcytic hypochromic anemia and thrombocytopenia and was given six units of packed cell transfusion.                                                                                                                            |
+|                    |                                                                                                                                                                                                                                                |
+|                    | US showed fetal weight below 10th percentile; absent end diastolic blood flow.                                                                                                                                                                 |
+|                    |                                                                                                                                                                                                                                                |
+|                    | Tranexamic acid was administered intravenously, and a silicone three-way urinary catheter was inserted and left in place for a week.                                                                                                           |
++--------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| December 18,2025   | MRI showed gravid uterus with single intrauterine pregnancy, compressing the left ovarian vein and left common iliac vein, and dilated tubular lesions suggestive of varicosities in the pelvic, perineal, perivesical, and gluteal regions.   |
++--------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| December 21,2025   | Color Doppler and duplex of lower limbs was unremarkable.                                                                                                                                                                                      |
+|                    |                                                                                                                                                                                                                                                |
+|                    | PAUS showed soft tissue lesions in the urinary bladder, bilateral refluxing parametrial venous channels, and a single viable intra-uterine fetus.                                                                                              |
++--------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| December 22,2025   | Hemoglobin showed improvement 9.4g/dL, but the platelet count remained consistently low between 82,000 and 104,000.                                                                                                                            |
+|                    |                                                                                                                                                                                                                                                |
+|                    | Iron profile showed elevated unsaturated iron binding capacity and low transferrin saturation.                                                                                                                                                 |
+|                    |                                                                                                                                                                                                                                                |
+|                    | Urinalysis showed hematuria, pyuria, mild proteinuria, and increased uric acid crystals.                                                                                                                                                       |
++--------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| December 28,2025   | Prolonged PT was found with a small improvement in platelets and hemoglobin.                                                                                                                                                                   |
++--------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| January 1,2026     | Contrast-enhanced pelvic MRI showed extensive venous malformations within the pelvis involving the cervix, vagina, anal canal, perineum, both labias, gluteal region, thigh, anterior part of the abdominal cavity, and lower uterine segment. |
++--------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| January 2,2026     | Regular monitoring for the mother and fetus continued.                                                                                                                                                                                         |
+|                    |                                                                                                                                                                                                                                                |
+|                    | One unit of packed red blood cells was given.                                                                                                                                                                                                  |
++--------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| January 5,2026     | Received another unit of packed red blood cells.                                                                                                                                                                                               |
++--------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| January 18,2026    | At 35 weeks of gestation, decision for emergency cesarean section was made due to worsening fetal Doppler parameters and maternal risks.                                                                                                       |
+|                    |                                                                                                                                                                                                                                                |
+|                    | Significant varicosities were seen in the anterior abdominal wall and over the lower uterine segment.                                                                                                                                          |
+|                    |                                                                                                                                                                                                                                                |
+|                    | Hemostasis was secured, no intraperitoneal drains were left and only a subcutaneous drain was inserted for seven days.                                                                                                                         |
+|                    |                                                                                                                                                                                                                                                |
+|                    | Delivery of low birth weight female neonate weighing 1900g, and no respiratory support was needed.                                                                                                                                             |
+|                    |                                                                                                                                                                                                                                                |
+|                    | The mother was admitted to the ICU due to hemoperitoneum.                                                                                                                                                                                      |
+|                    |                                                                                                                                                                                                                                                |
+|                    | LMWH was initiated along with tranexamic acid and other medications.                                                                                                                                                                           |
++--------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| January 19,2026    | Hematuria was noted later in the day requiring discontinuation of LMWH.                                                                                                                                                                        |
+|                    |                                                                                                                                                                                                                                                |
+| (1st post-op day)  | Prolonged PT and low hemoglobin and platelet count were noted.                                                                                                                                                                                 |
+|                    |                                                                                                                                                                                                                                                |
+|                    | Total of ten units of red blood cells and fresh frozen plasma transfused over the course of the following seven days.                                                                                                                          |
++--------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| January 20,2026    | Marked decreases in hemoglobin and platelet count.                                                                                                                                                                                             |
+|                    |                                                                                                                                                                                                                                                |
+| (2nd post-op day)  |                                                                                                                                                                                                                                                |
++--------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| January 21,2026    | TVUS showed hemoperitoneum with a localized hematoma at lower uterine segment, approximately 12 cm in maximum length.                                                                                                                          |
+|                    |                                                                                                                                                                                                                                                |
+| (3rd post-op day)  | LWMH was resumed.                                                                                                                                                                                                                              |
++--------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| January 22,2026    | Low fibrinogen (1.4g/l) and high D-dimer (35.2 ug/ml/ FEU) were suggestive of Kasabach Meritt Syndrome and a decision for conservative management was made.                                                                                    |
+|                    |                                                                                                                                                                                                                                                |
+| (4th post-op day)  |                                                                                                                                                                                                                                                |
++--------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| January 25,2026    | Hemoglobin stabilized at 10.1g/dl, platelet count remained low at 64,000.                                                                                                                                                                      |
+|                    |                                                                                                                                                                                                                                                |
+| (7th post-op day)  |                                                                                                                                                                                                                                                |
++--------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| January 28,2026    | Patient was discharged after stabilization.                                                                                                                                                                                                    |
+|                    |                                                                                                                                                                                                                                                |
+| (10th post-op day) |                                                                                                                                                                                                                                                |
++--------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Febuary 6,2026     | Followed up at the outpatient clinic and general condition was fair                                                                                                                                                                            |
+|                    |                                                                                                                                                                                                                                                |
+| (19th post-op day) | Sutures were removed with good healing of the abdominal incision.                                                                                                                                                                              |
++--------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: Patient timeline {#tbl-1}
+
+| Parameters/Timing | December 16, 2025 (Day of admission) | December 22, 2025 | December 28, 2025 | January 19, 2026 (Day 1 post op) | January 20, 2026 (Day 2 post op) | January 22, 2026 (Day 4 post op) | January 24, 2026 (Day 6 post op) | January 25, 2026 (Day 7 post op) | Reference range |
+|----|----|----|----|----|----|----|----|----|----|
+| Hemoglobin (g/dL) | 7.0 | 7.6 | 10.2 | 9.6 | 7.6 | 8.6 | 10.0 | 10.0 | 12.0-15.0 |
+| Hematocrit (%) | 23.0 | 23.5 | 33.1 | 20.0 | 21.8 | 26.8 | 30.8 | \- | 36-46 |
+| Platelets (/µL) | 128,000 | 97,000 | 129,000 | 218,000 | 104,000 | 75,000 | 64,000 | 64,000 | 150,000–410,000 |
+| Prothrombin time (seconds) | \- | \- | 12.4 | 40.70 | \- | \- | 17.7 | \- | 11.7–15.3 |
+| Activated partial thromboplastin time (seconds) | \- | \- | \- | \- | \- | \- | 48.90 | \- | 26-40 |
+| Fibrinogen (g/L) | \- | \- | \- | \- | \- | 1.4 | \- | \- | 2.00-4.00 |
+| D-dimer (µg/mL FEU) | \- | \- | \- | \- | \- | 35.2 | \- | \- | 0-0.55 |
+| Total bilirubin (mg/dL) | \- | \- | \- | 2.8 | 1.8 | \- | 1.4 | \- | 1.8-3.5 |
+| Alkaline phosphatase (IU/L) | \- | \- | \- | 135 | 115 | \- | 108 | \- | 34–104 |
+| LDH (IU/L) | \- | 454 | \- | 424 | 357 | \- | 449 | \- | 140–271 |
+| BUN (mg/dL) | \- | \- | \- | \- | \- | \- | 24 | \- | 5–23 |
+| Serum creatinine (mg/dL) | \- | \- | 0.35 | \- | \- | 0.30 | \- | \- | 0.6–1.2 |
+| Urinalysis | ematuria (2+), pyuria, mild proteinuria (1+); microscopy: \>100 |  |  |  |  |  |  |  |  |
+| RBCs/HPF, 40–45 pus cells/HPF, epithelial cells (2+) |  |  |  |  |  | Hematuria (2+), mild pyuria, mild proteinuria (1+); microscopy: \>100 |  |  |  |
+| RBCs/HPF, 13–15 pus cells/HPF, epithelial cells (1+) |  |  |  |  |  |  |  |  |  |
+| ABO and Rh typing | B+ |  |  |  |  |  |  |  |  |
+
+: {#tbl-2}. Relevant abnormal laboratory results throughout the clinical course.
+
+LDH : Lactate dehydrogenase, BUN: Blood Urea Nitrogen, RBCs/HPF: Red blood cells per high power field, Pus Cell/HPF: Pus cells per high power field.
 
 # Discussion
 
@@ -100,6 +205,32 @@ Our patient's coagulopathy prompted the diagnostic consideration of KMS. First r
 # Conclusion
 
 Pregnancy in women with Klippel–Trenaunay syndrome complicated by Kasabach–Merritt syndrome is extremely rare. Intensive antenatal surveillance and multidisciplinary management are essential to optimize maternal and perinatal outcomes.
+
+# Abbreviation
+
+Klippel-Trenaunay syndrome (KTS)
+
+Kasabach Meritt Syndrome (KMS)
+
+Magnetic resonance imaging (MRI)
+
+Ultrasonography (US)
+
+Transvaginal ultrasound (TVUS)
+
+Intensive care unit (ICU)
+
+Low-molecular-weight heparin (LMWH)
+
+Lactate dehydrogenase (LDH)
+
+Blood Urea Nitrogen (BUN)
+
+Prothrombin time (PT)
+
+Partial Thromboplastin Time (PTT)
+
+Complete blood picture (CBC)
 
 # Declarations
 
