@@ -181,9 +181,9 @@ After further stabilization, the patient was discharged on day ten postoperative
 | LDH (IU/L) | \- | 454 | \- | 424 | 357 | \- | 449 | \- | 140–271 |
 | BUN (mg/dL) | \- | \- | \- | \- | \- | \- | 24 | \- | 5–23 |
 | Serum creatinine (mg/dL) | \- | \- | 0.35 | \- | \- | 0.30 | \- | \- | 0.6–1.2 |
-| Urinalysis | ematuria (2+), pyuria, mild proteinuria (1+); microscopy: \>100 |  |  |  |  |  |  |  |  |
-| RBCs/HPF, 40–45 pus cells/HPF, epithelial cells (2+) |  |  |  |  |  | Hematuria (2+), mild pyuria, mild proteinuria (1+); microscopy: \>100 |  |  |  |
-| RBCs/HPF, 13–15 pus cells/HPF, epithelial cells (1+) |  |  |  |  |  |  |  |  |  |
+| Urinalysis | Hematuria (2+), pyuria, mild proteinuria (1+); microscopy: \>100
+RBCs/HPF, 40–45 pus cells/HPF, epithelial cells (2+) |  |  |  |  |  | Hematuria (2+), mild pyuria, mild proteinuria (1+); microscopy: \>100
+RBCs/HPF, 13–15 pus cells/HPF, epithelial cells (1+) |  |  |
 | ABO and Rh typing | B+ |  |  |  |  |  |  |  |  |
 
 : Relevant abnormal laboratory results throughout the clinical course. {#tbl-2}
