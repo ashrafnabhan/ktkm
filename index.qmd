@@ -168,7 +168,7 @@ After further stabilization, the patient was discharged on day ten postoperative
 : Patient timeline {#tbl-1}
 
 | Parameters/Timing | December 16, 2025 (Day of admission) | December 22, 2025 | December 28, 2025 | January 19, 2026 (Day 1 post op) | January 20, 2026 (Day 2 post op) | January 22, 2026 (Day 4 post op) | January 24, 2026 (Day 6 post op) | January 25, 2026 (Day 7 post op) | Reference range |
-|----|----|----|----|----|----|----|----|----|----|
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 | Hemoglobin (g/dL) | 7.0 | 7.6 | 10.2 | 9.6 | 7.6 | 8.6 | 10.0 | 10.0 | 12.0-15.0 |
 | Hematocrit (%) | 23.0 | 23.5 | 33.1 | 20.0 | 21.8 | 26.8 | 30.8 | \- | 36-46 |
 | Platelets (/µL) | 128,000 | 97,000 | 129,000 | 218,000 | 104,000 | 75,000 | 64,000 | 64,000 | 150,000–410,000 |
@@ -186,7 +186,7 @@ After further stabilization, the patient was discharged on day ten postoperative
 | RBCs/HPF, 13–15 pus cells/HPF, epithelial cells (1+) |  |  |  |  |  |  |  |  |  |
 | ABO and Rh typing | B+ |  |  |  |  |  |  |  |  |
 
-: {#tbl-2}. Relevant abnormal laboratory results throughout the clinical course.
+: Relevant abnormal laboratory results throughout the clinical course. {#tbl-2}
 
 LDH : Lactate dehydrogenase, BUN: Blood Urea Nitrogen, RBCs/HPF: Red blood cells per high power field, Pus Cell/HPF: Pus cells per high power field.
 
