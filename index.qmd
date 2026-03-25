@@ -36,63 +36,54 @@ This case report details the clinical course and successful management of a preg
 
 # Case Presentation
 
-A 28-year-old multigravida woman (G3, P2 both by cesarean sections) presented at 30 weeks by clinical significant hematuria.
+A 28-year-old multigravida, P2CS+1 (1L) was first admitted at 30+1 weeks of gestation for clinically significant hematuria on the 16th of December in Ain Shams University Hospital, Egypt. The timeline is detailed in Table 1.
 
-She had a known diagnosis of KTS involving both lower limbs, back, pelvis, and urinary bladder, diagnosed at two years of age.
+The patient was first diagnosed at two years of age with Klippel-Trenaunay syndrome (KTS) involving both lower limbs, back, pelvis, and urinary bladder. She underwent surgery for varicose veins seven years ago, as well as orthopedic surgery for the insertion of plates and screws a year and a half ago.
 
-Maternal Clinical Findings
+Her obstetric history includes two cesarean sections. Her first pregnancy was seven years ago and ended in neonatal death. Her second pregnancy was complicated by severe preeclampsia, postpartum wound hematoma, and sepsis, requiring ICU admission. She also had a history of spontaneous miscarriage for which she did not undergo dilatation and curettage. For her current pregnancy, she received two doses of antenatal corticosteroids on December 14^th^ and 15^th^.
 
-Blood pressure: 120/80 mmhg, temperature 36.2 C, pulse 68 beats per minute.
+On examination, her blood pressure was 120/80 mmHg, temperature was 36.2° C, and heart rate was 68 bpm. Port-wine stains were seen in the back and gluteal region with discrepancy in the length of both lower limbs.
 
-Presence of vascular malformations: port wine in the back and gulteal region.
+A complete blood picture (CBC) revealed microcytic hypochromic anemia (Hb 7.0 g/dl, hematocrit 23.0%) and thrombocytopenia (128,000 u/L), for which she received six units of packed cell transfusion to correct the worsening hemoglobin. ABO and Rh typing indicated B positive blood. Viral workup was negative for HCV, HIV, and HBV.
 
-She had a discrepancy in the length of both lower limbs.
+Ultrasonography (US) demonstrated estimated fetal weight below the 10th percentile consistent with intrauterine growth restriction (IUGR), and an abnormal umbilical artery Doppler showing absent end-diastolic blood flow.
 
-Urological consultation for the significant hemturia. Initial management included IV tranexamic acid and indwelling silicon triple way urinary catheter for one week.
+Urological consultation was sought for the significant hematuria. Initial management included intravenous (IV) tranexamic acid and insertion of an indwelling silicone three-way urinary catheter for one week.
 
-Her laboratory findings revealed
+On December 18^th^, pelviabdominal magnetic resonance imaging (MRI) was performed, demonstrating a gravid uterus with a single intrauterine pregnancy in cephalic lie with unremarkable placental location and attachment. Compression of the left ovarian vein and the left common iliac vein by the gravid uterus was seen, with associated slowing and dilatation of both veins. Extensive dilated tubular tortuous lesions suggestive of varicosities were observed in the pelvic, perivesical, perineal, and gluteal regions, more prominent on the left side, showing a “bag of worms” appearance. Similar lesions were present in breast subcutaneous tissue bilaterally. The urinary bladder contained blood products.\
+The liver was mildly enlarged with noticeable vascular compression, while the gall bladder, spleen, and kidneys were unremarkable. Minimal bilateral pleural effusion was noticed.
 
-Hemoglobin:
+On December 21^st^, pelviabdominal ultrasonography, Color-Doppler study of both lower limb veins, and Color-Doppler and duplex study of both lower limb arteries were performed.\
+Pelviabdominal ultrasonography revealed hepatosplenomegaly, soft tissue lesions in the urinary bladder, bilateral refluxing parametrial venous channels, and a single viable intra-uterine fetus.\
+Lower limb vessel studies showed a normal venous and arterial system, with no evidence of deep vein thrombosis.
 
-• Platelet count:
+Serial CBCs showed improving hemoglobin over the four days following the packed RBCs transfusion, which reached 9.4g/dL on December 22^nd^, while platelet count remained persistently low between 82,000 and 104,000. Iron profile showed elevated UIBC (unsaturated iron binding capacity) and low transferrin saturation. Lactate dehydrogenase (LDH) was elevated at 454 IU/L.\
+On the same day, urinalysis demonstrated hematuria (2+), pyuria, and mild proteinuria (1+). Microscopic examination revealed \>100 red blood cells per high power field (RBCs/HPF), 40-45 pus cells per high power field (Pus Cell/HPF), and increased epithelial cells (2+). Uric acid crystals were present (2+). Other parameters were within normal limits.
 
-• Fibrinogen:
+Coagulation studies on December 27^th^ and 28^th^ showed slightly elevated Prothrombin time (PT) while serum creatinine was low.
 
-• D-dimer:
+A contrast-enhanced pelvic MRI was done on January 1, showing extensive venous malformations within the pelvis involving the cervix, vagina, anal canal, and extending downwards to the perineum and both labias. Extensive lesions were also seen within the gluteal region, thigh, anterior part of the abdominal cavity, and intravesically.
 
-These Findings were suggestive of KMS
+The patient was monitored daily with regular assessment of vital parameters, general condition, fetal kicks, vaginal bleeding, uterine contractions, and evidence of membrane rupture. She received one unit of packed RBCs on January 2, followed by an additional unit on January 5.  
 
-The patient received six units of packed cell transfusion to correct the worsening hemoglobin.
+At 35 weeks of gestation, based on worsening fetal Doppler parameters and maternal risks, a multidisciplinary team involving obstetrics, hematology, anesthesia, and neonatology recommended delivery by emergency cesarean section. Subsequently, on the 18^th^ of January, a cesarean section was performed at 35 weeks of gestation under general endotracheal anesthesia.\
+Vertical midline abdominal incision was made revealing significant varicosities in the anterior abdominal wall, over the lower uterine segment, and in the interface between the uterus and the bladder. Lower segment incision of the uterus was made to deliver the fetus and placenta. This was followed by closure of the uterine wall in two layers. Placenta was complete, perineum intact. Hemostasis secured. No intraperitoneal drains were left. Only a subcutaneous drain was inserted for seven days. The skin was closed by interrupted mattress sutures.
 
-Fetal Assessment: Ultrasound examination at 30 weeks demonstrated:
+A female neonate weighing 1900 g was delivered with Apgar scores of 7 and 9 at 1 and 5 minutes respectively. The neonate did not receive vaccination due to low birth weight and did not require observation or respiratory support.
 
-• Estimated fetal weight below the 10th percentile
+Postoperatively, the mother was admitted to the ICU due to hemoperitoneum. Her pharmacological therapy included low-molecular-weight heparin (LMWH), tranexamic acid, ceftriaxone, pantoprazole, IV paracetamol, and charcoal-based herbal tablets. 
 
-• Abnormal umbilical artery Doppler with absent end-diastolic blood flow
+Slight hematuria was noted on the first post-operative day, and labs showed a declining hemoglobin and platelet count, as well as markedly elevated LDH, alkaline phosphatase, creatine kinase, and bilirubin. LMWH therapy was thereby put on hold, and the patient was given packed red blood cells and fresh frozen plasma, receiving a total of ten units of packed cell transfusion and fresh frozen plasma (with a one-to-one ratio) over the course of seven days. Additional laboratory investigations are demonstrated in (Table 2)
 
-• Amniotic fluid index:
+On the second post-operative day, the patient's hemoglobin and platelet count rapidly deteriorated, decreasing from 9.6g/dl and 218,000 plt to 7.6g/dl and 104,000 plt respectively. Replacement with blood products continued.
 
-MRV revealed extensive venous malformations reaching anterior abdominal wall,pelvis, cervix, vagina, and urinary bladder.
+On post-operative day three, TVUS revealed marked hemoperitoneum with a localized hematoma related to the lower uterine segment, approximately 12 cm in maximum length. Labs showed low fibrinogen (1.4g/l) and significantly elevated D-dimer (35.200 ug/mlFEU). These findings were suggestive of Kasabach Meritt Syndrome.
 
-Pelvi-abbdominal ultrasound revealed two iso-echoic soft tissue masses in the posterior wall of the urinary bladder with maximum size measuring 2 x 3 cm.
+A decision for conservative management was made by the attending consultant and the head of the unit. Pharmacological therapy was adjusted; LWMH was resumed, in addition to tranexamic acid, 1 amp calcium, 1 amp dexamethasone, magnesium sulfate, cefepime, omeprazole, clindamycin, and IV paracetamol.
 
-At 35 weeks, based on worsening fetal Doppler parameters and maternal risks, a multidisciplinary team involving obstetrics, hematology, anesthesia, and neonatology recommended delivery by cesarean section.
+On day 7, her hemoglobin stabilized at 10.1 g/dl and remained stable over the following three days, while her platelet count remained low at 64,000.
 
-Cesarean delivery and Neonatal Outcome
-
-A cesarean section was performed at 35 weeks of gestation under general endotracheal anesethsia. Vertical midline abdominal incision was made. Significant varicosities was seen in the anterior abdominal wall and over the lower uterine segment and in the interface between the uterus and the bladder. Lower segment insicion of the uterus to deliver the fetus and placenta. This was followed by closure of the uterine wall in two layers. Hemostasis secured. No intraperitoneal drains were left. Only a subcutaneous drain was inserted for seven days. The skin was closed by interrupted mattress sutures.
-
-A female neonate weighing 1900 g was delivered with Apgar scores of 7 and 9 at 1 and 5 minutes respectively. The neonate did not require respiratory support nor observation.
-
-Maternal postoperative course
-
-Postoperatively, she had a hemoperitoneum and was admitted to the ICU. Although her immedaite day one postoperative hemoglobin was 9.3 g/dl and platelets 100,000, rapid deterioration to hemoglobin of 7 g/dl and platelet 70,000 occurred on the second postoperative day despite full replacement by blood products. She received ten units of packed cell transfusion and fresh frozen plasma (with a one to one ratio) over the course of seven days.
-
-On day three, TVUS revealed marked hemoperitoneum with a localized heamtoma realted to the lower uterine segment, approximately 12 cm in maximum length. Decision of conservation was taken by teh attending consultant and the head of the unit.
-
-On day 7, her hemogbin showed a plateau at 10.1 g/dl and remained for there days. Her platelets remained at 70,000.
-
-The patient was discharged on day ten postoperatively. She was seen on day 19 in the outpatient clinic. General condition was fair, lax abdomen, and skin sutures were removed with a perfect healing of the abdominal incision.
+After further stabilization, the patient was discharged on day ten postoperatively. She was seen on day nineteen in the outpatient clinic. General condition was fair, lax abdomen, and skin sutures were removed with optimal healing of the abdominal incision.
 
 # Discussion
 
