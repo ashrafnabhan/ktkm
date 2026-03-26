@@ -77,11 +77,9 @@ Slight hematuria was noted on the first post-operative day, and labs showed a de
 
 On the second post-operative day, the patient's hemoglobin and platelet count rapidly deteriorated, decreasing from 9.6g/dl and 218,000 plt to 7.6g/dl and 104,000 plt respectively. Replacement with blood products continued.
 
-On post-operative day three, TVUS revealed marked hemoperitoneum with a localized hematoma related to the lower uterine segment, approximately 12 cm in maximum length.
+On post-operative day three, TVUS revealed marked hemoperitoneum with a localized hematoma related to the lower uterine segment, approximately 12 cm in maximum length. A decision for conservative management was made by the attending consultant and the head of the unit. Pharmacological therapy was adjusted; LWMH was resumed, in addition to tranexamic acid, 1 amp calcium, 1 amp dexamethasone, magnesium sulfate, cefepime, omeprazole, clindamycin, and intravenous paracetamol.
 
 On post-operative day four, labs showed low fibrinogen (1.4g/l) and significantly elevated D-dimer (35.200 ug/mlFEU). These findings were suggestive of Kasabach Meritt Syndrome.
-
-A decision for conservative management was made by the attending consultant and the head of the unit. Pharmacological therapy was adjusted; LWMH was resumed, in addition to tranexamic acid, 1 amp calcium, 1 amp dexamethasone, magnesium sulfate, cefepime, omeprazole, clindamycin, and intravenous paracetamol.
 
 On day 7, her hemoglobin stabilized at 10.1 g/dl and remained stable over the following three days, while her platelet count remained low at 64,000.
 
@@ -168,7 +166,7 @@ After further stabilization, the patient was discharged on day ten postoperative
 : Patient timeline {#tbl-1}
 
 | Parameters/Timing | December 16, 2025 (Day of admission) | December 22, 2025 | December 28, 2025 | January 19, 2026 (Day 1 post op) | January 20, 2026 (Day 2 post op) | January 22, 2026 (Day 4 post op) | January 24, 2026 (Day 6 post op) | January 25, 2026 (Day 7 post op) | Reference range |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|----|----|----|----|----|----|----|----|----|----|
 | Hemoglobin (g/dL) | 7.0 | 7.6 | 10.2 | 9.6 | 7.6 | 8.6 | 10.0 | 10.0 | 12.0-15.0 |
 | Hematocrit (%) | 23.0 | 23.5 | 33.1 | 20.0 | 21.8 | 26.8 | 30.8 | \- | 36-46 |
 | Platelets (/µL) | 128,000 | 97,000 | 129,000 | 218,000 | 104,000 | 75,000 | 64,000 | 64,000 | 150,000–410,000 |
