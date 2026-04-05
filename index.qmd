@@ -32,7 +32,7 @@ KTS was first described in 1900 as Naevus vasculosus osteohypertrophicus by two 
 
 When pregnancy occurs in the setting of KTS, it presents significant challenges due to hormonally and hemodynamically driven vascular engorgement, increasing the risk of thromboembolism, hemorrhage, and coagulopathy. [@Blei2024] Coagulopathy may reflect the development of Kasabach-Merritt syndrome (KMS).
 
-Even more rarely, Kasabach-Merritt Syndrome (KMS), first described in 1940, is a life-threatening consumptive coagulopathy associated with rapidly proliferating vascular tumors such as kaposiform hemangioendothelioma and tufted angioma — can emerge or worsen during pregnancy in women with KTS. KMS in pregnancy is exceedingly rare, but when it occurs, it carries a historical mortality rate of 30–40%, driven by severe thrombocytopenia, hypofibrinogenemia, and disseminated intravascular coagulation (DIC). \[@T
+Even more rarely, Kasabach-Merritt Syndrome (KMS), first described in 1940, is a life-threatening consumptive coagulopathy associated with rapidly proliferating vascular tumors such as kaposiform hemangioendothelioma and tufted angioma, and can emerge or worsen during pregnancy in women with KTS. KMS in pregnancy is exceedingly rare, but when it occurs, it carries a historical mortality rate of 30–40%, driven by severe thrombocytopenia, hypofibrinogenemia, and disseminated intravascular coagulation (DIC). \[@T
 
 The co-occurrence of KTS and KMS in pregnancy represents a critical obstetric emergency, that demands early recognition and immediate multidisciplinary intervention to reduce mortality. This convergence is extremely rare and only three cases have been previously reported.[@Neubert1995; @Kanmani2021; @zhang2019].
 
