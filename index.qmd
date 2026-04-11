@@ -170,9 +170,9 @@ After further stabilization, the patient was discharged on day ten postoperative
 : Patient timeline {#tbl-1}
 
 | Parameters/Timing | December 16 (Day of admission) | December 22 | December 28 | POD 1 | POD 2 | POD 4 | POD 6 | POD 7 | Reference range |
-|--------|--------|--------|--------|--------|--------|--------|-------|-------|--------|
-| Hemoglobin (g/dL) | 7.0 | 7.6 | 10.2 | 9.6 | 7.6 | 8.6 | 10.0 | 10.0 | 12.0-15.0 |
-| Hematocrit (%) | 23.0 | 23.5 | 33.1 | 20.0 | 21.8 | 26.8 | 30.8 | \- | 36-46 |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| Hb (g/dL) | 7.0 | 7.6 | 10.2 | 9.6 | 7.6 | 8.6 | 10.0 | 10.0 | 12.0-15.0 |
+| HCT (%) | 23.0 | 23.5 | 33.1 | 20.0 | 21.8 | 26.8 | 30.8 | \- | 36-46 |
 | Platelets (/µL) | 128,000 | 97,000 | 129,000 | 218,000 | 104,000 | 75,000 | 64,000 | 64,000 | 150,000–410,000 |
 | PT (seconds) | \- | \- | 12.4 | 40.70 | \- | \- | 17.7 | \- | 11.7–15.3 |
 | aPTT (seconds) | \- | \- | \- | \- | \- | \- | 48.90 | \- | 26-40 |
@@ -186,7 +186,7 @@ After further stabilization, the patient was discharged on day ten postoperative
 
 : Relevant abnormal laboratory results throughout the clinical course. {#tbl-2}
 
-POD: Post oprative day, PT: Prothrombin time, aPTT: Activated partial thromboplastin time , LDH : Lactate dehydrogenase, BUN: Blood Urea Nitrogen.
+POD: Post oprative day, Hb: Hemoglobin, HTC: Hematocrit, PT: Prothrombin time, aPTT: Activated partial thromboplastin time , LDH : Lactate dehydrogenase, BUN: Blood Urea Nitrogen.
 
 # Review of literature
 
