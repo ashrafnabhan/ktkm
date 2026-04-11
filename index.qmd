@@ -145,7 +145,7 @@ After further stabilization, the patient was discharged on day ten postoperative
 
 : Relevant abnormal laboratory results throughout the clinical course. {#tbl-2}
 
-POD: Post oprative day, Hb: Hemoglobin, HTC: Hematocrit, PT: Prothrombin time, aPTT: Activated partial thromboplastin time, ALP: Alkaline phosphatase, LDH : Lactate dehydrogenase, BUN: Blood Urea Nitrogen.
+POD: Post operative day, Hb: Hemoglobin, HTC: Hematocrit, PT: Prothrombin time, aPTT: Activated partial thromboplastin time, ALP: Alkaline phosphatase, LDH : Lactate dehydrogenase, BUN: Blood Urea Nitrogen.
 
 # Review of literature
 
