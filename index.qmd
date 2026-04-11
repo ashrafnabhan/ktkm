@@ -186,7 +186,7 @@ After further stabilization, the patient was discharged on day ten postoperative
 
 : Relevant abnormal laboratory results throughout the clinical course. {#tbl-2}
 
-PT: Prothrombin time, aPTT: Activated partial thromboplastin time , LDH : Lactate dehydrogenase, BUN: Blood Urea Nitrogen.
+POD: Post oprative day, PT: Prothrombin time, aPTT: Activated partial thromboplastin time , LDH : Lactate dehydrogenase, BUN: Blood Urea Nitrogen.
 
 # Review of literature
 
