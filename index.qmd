@@ -85,7 +85,7 @@ On post-operative day three, TVUS revealed marked hemoperitoneum with a localize
 
 On post-operative day four, labs showed low fibrinogen (1.4g/l) and significantly elevated D-dimer (35.200 ug/mlFEU). These findings were suggestive of Kasabach Meritt Syndrome.
 
-On day 7, her hemoglobin stabilized at 10.1 g/dl and remained stable over the following three days, while her platelet count remained low at 64,000.
+Urinalysis on day 6 demonstrated hematuria (2+), mild pyuria and mild proteinuria (1+). Microscopic examination revealed \>100 red blood cells per high power field (RBCs/HPF), 13-15 pus cells per high power field (Pus Cell/HPF), and increased epithelial cells (1+). On day 7, her hemoglobin stabilized at 10.1 g/dl and remained stable over the following three days, while her platelet count remained low at 64,000.
 
 After further stabilization, the patient was discharged on day ten postoperatively. She was seen on day nineteen in the outpatient clinic. General condition was fair, lax abdomen, and skin sutures were removed with optimal healing of the abdominal incision.
 
@@ -169,13 +169,13 @@ After further stabilization, the patient was discharged on day ten postoperative
 
 : Patient timeline {#tbl-1}
 
-| Parameters/Timing | December 16, 2025 (Day of admission) | December 22, 2025 | December 28, 2025 | January 19, 2026 (Day 1 post op) | January 20, 2026 (Day 2 post op) | January 22, 2026 (Day 4 post op) | January 24, 2026 (Day 6 post op) | January 25, 2026 (Day 7 post op) | Reference range |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| Parameters/Timing | December 16 (Day of admission) | December 22 | December 28 | POD 1 | POD 2 | POD 4 | POD 6 | POD 7 | Reference range |
+|--------|--------|--------|--------|--------|--------|--------|-------|-------|--------|
 | Hemoglobin (g/dL) | 7.0 | 7.6 | 10.2 | 9.6 | 7.6 | 8.6 | 10.0 | 10.0 | 12.0-15.0 |
 | Hematocrit (%) | 23.0 | 23.5 | 33.1 | 20.0 | 21.8 | 26.8 | 30.8 | \- | 36-46 |
 | Platelets (/µL) | 128,000 | 97,000 | 129,000 | 218,000 | 104,000 | 75,000 | 64,000 | 64,000 | 150,000–410,000 |
-| Prothrombin time (seconds) | \- | \- | 12.4 | 40.70 | \- | \- | 17.7 | \- | 11.7–15.3 |
-| Activated partial thromboplastin time (seconds) | \- | \- | \- | \- | \- | \- | 48.90 | \- | 26-40 |
+| PT (seconds) | \- | \- | 12.4 | 40.70 | \- | \- | 17.7 | \- | 11.7–15.3 |
+| aPTT (seconds) | \- | \- | \- | \- | \- | \- | 48.90 | \- | 26-40 |
 | Fibrinogen (g/L) | \- | \- | \- | \- | \- | 1.4 | \- | \- | 2.00-4.00 |
 | D-dimer (µg/mL FEU) | \- | \- | \- | \- | \- | 35.2 | \- | \- | 0-0.55 |
 | Total bilirubin (mg/dL) | \- | \- | \- | 2.8 | 1.8 | \- | 1.4 | \- | 1.8-3.5 |
@@ -183,12 +183,10 @@ After further stabilization, the patient was discharged on day ten postoperative
 | LDH (IU/L) | \- | 454 | \- | 424 | 357 | \- | 449 | \- | 140–271 |
 | BUN (mg/dL) | \- | \- | \- | \- | \- | \- | 24 | \- | 5–23 |
 | Serum creatinine (mg/dL) | \- | \- | 0.35 | \- | \- | 0.30 | \- | \- | 0.6–1.2 |
-| Urinalysis |  | Hematuria (2+), pyuria, mild proteinuria (1+); microscopy: \>100 RBCs/HPF, 40–45 pus cells/HPF, epithelial cells (2+) |  |  |  |  | Hematuria (2+), mild pyuria, mild proteinuria (1+); microscopy: \>100 RBCs/HPF, 13–15 pus cells/HPF, epithelial cells (1+) |  |  |
-| ABO and Rh typing | B+ |  |  |  |  |  |  |  |  |
 
 : Relevant abnormal laboratory results throughout the clinical course. {#tbl-2}
 
-LDH : Lactate dehydrogenase, BUN: Blood Urea Nitrogen, RBCs/HPF: Red blood cells per high power field, Pus Cell/HPF: Pus cells per high power field.
+PT: Prothrombin time, aPTT: Activated partial thromboplastin time , LDH : Lactate dehydrogenase, BUN: Blood Urea Nitrogen.
 
 # Review of literature
 
