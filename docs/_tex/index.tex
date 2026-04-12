@@ -1,0 +1,1059 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+% definitions for citeproc citations
+\NewDocumentCommand\citeproctext{}{}
+\NewDocumentCommand\citeproc{mm}{%
+  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
+\makeatletter
+ % allow citations to break across lines
+ \let\@cite@ofmt\@firstofone
+ % avoid brackets around text for \cite:
+ \def\@biblabel#1{}
+ \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftmargin}{0pt}
+  \setlength{\parsep}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+   \setlength{\leftmargin}{\cslhangindent}
+   \setlength{\itemindent}{-1\cslhangindent}
+  \fi
+  % set entry spacing
+  \setlength{\itemsep}{#2\baselineskip}}}
+ {\end{list}}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Klippel-Trenaunay Syndrome complicated by Kasabach-Merritt syndrome during pregnancy},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{Klippel-Trenaunay Syndrome complicated by Kasabach-Merritt
+syndrome during pregnancy}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{A case report and review of the literature}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+
+
+\section{Authors}\label{authors}
+
+Mourad Elfaham\textsuperscript{1}, Aya Attia\textsuperscript{1}, Mohamed
+Waheed\textsuperscript{1}, Mohamed Essam\textsuperscript{1}, Salma
+Saad\textsuperscript{1}, Mariam Sarhan\textsuperscript{1}, Marwa
+Mourad\textsuperscript{1}, Mohamed Hegazy\textsuperscript{1}, Farah
+Said\textsuperscript{1}, Sarah Tarek\textsuperscript{1}, Amgad
+Gamal\textsuperscript{1}, Sara Ibrahim Abdelkader\textsuperscript{2*},
+Ahmed Azab\textsuperscript{2}, Mohammed Ghanem\textsuperscript{2}, Rahma
+Alaa Abdelhafez\textsuperscript{2}, Nour Atif\textsuperscript{2}, Maha
+Moemen\textsuperscript{2}, Belgin Ahmed Nagah\textsuperscript{2}, Ashraf
+Nabhan\textsuperscript{1,3}
+
+\section{Affiliation}\label{affiliation}
+
+\textsuperscript{1} Faculty of Medicine, Ain Shams University, Cairo,
+Egypt.
+
+\textsuperscript{2} Faculty of Medicine, Galala University, Attaka,
+Suez, Egypt.
+
+\textsuperscript{3} Faculty of Medicine, MTI University, Cairo, Egypt.
+01069663999
+
+* Corresponding author: Sara Ibrahim Abdelkader. Faculty of Medicine,
+Galala University, Attaka, Suez, Egypt. Email:
+\href{mailto:sara.elzeftawy@gu.edu.eg}{\nolinkurl{sara.elzeftawy@gu.edu.eg}},
+ORCID: \href{https://orcid.org/0009-0002-5877-4722}{0009-0002-5877-4722}
+
+\textbf{Word count:} 2500
+
+\section{Abstract}\label{abstract}
+
+The co-occurrence of Klippel--Trenaunay syndrome and Kasabach-Merritt
+syndrome in pregnancy is extremely rare and represents a critical
+obstetric emergency with significant maternal and fetal risks, demanding
+early recognition and immediate multidisciplinary intervention.
+
+We report the case of a 28-year-old pregnant woman with known
+Klippel--Trenaunay syndrome who developed Kasabach--Merritt phenomenon
+during pregnancy. The fetus suffered severe growth restriction and
+absent end-diastolic flow on umbilical artery Doppler. A cesarean
+section was performed at 35 weeks of gestation.
+
+This case highlights the complexity of managing pregnancy in women with
+Klippel--Trenaunay syndrome complicated by Kasabach Merritt syndrome and
+emphasizes the importance of multidisciplinary surveillance and timely
+delivery.
+
+\textbf{Keywords:} Klippel--Trenaunay syndrome; angioosteohypertrophy
+syndrome; Kasabach Merritt syndrome; fetal growth restriction; high-risk
+pregnancy
+
+\section{Introduction}\label{introduction}
+
+Klippel-Trenaunay syndrome (KTS) is a rare congenital disorder affecting
+an estimated 2--5 per 100,000 individuals. Its features include a triad
+of capillary malformations, venous and lymphatic anomalies, and limb
+overgrowth. {[}1,2{]}
+
+KTS was first described in 1900 as Naevus vasculosus osteohypertrophicus
+by two French physicians, Maurice Klippel and Paul Trenaunay. It was
+previously considered similar to the less common Parkes Weber syndrome
+(PWS), distinguished from KTS by the presence of arteriovenous
+malformations (AVMs), which is abnormal connections between arteries and
+veins in the affected limb, potentially leading to high-output heart
+failure. Despite this distinction, both conditions share similar
+management principles.{[}3,4{]}. KTS is currently classified within the
+PIK3CA-Related Overgrowth Spectrum (PROS), a group of overgrowth
+syndromes with overlapping phenotypic features that share mutations in
+the PIK3CA~gene.
+
+When pregnancy occurs in the setting of KTS, it presents significant
+challenges due to hormonally and hemodynamically driven vascular
+engorgement, increasing the risk of thromboembolism, hemorrhage, and
+coagulopathy. {[}5{]} Coagulopathy may reflect the development of
+Kasabach-Merritt syndrome (KMS).
+
+Even more rarely, Kasabach-Merritt Syndrome (KMS), first described in
+1940, is a life-threatening consumptive coagulopathy associated with
+rapidly proliferating vascular tumors such as kaposiform
+hemangioendothelioma and tufted angioma, and can emerge or worsen during
+pregnancy in women with KTS. KMS in pregnancy is exceedingly rare, but
+when it occurs, it carries a historical mortality rate of 30--40\%,
+driven by severe thrombocytopenia, hypofibrinogenemia, and disseminated
+intravascular coagulation (DIC). {[}6{]}
+
+The co-occurrence of KTS and KMS in pregnancy represents a critical
+obstetric emergency, that demands early recognition and immediate
+multidisciplinary intervention to reduce mortality. This convergence is
+extremely rare and only three cases have been previously
+reported.{[}7--9{]}.
+
+This case report details the clinical course and successful management
+of a pregnant woman with KTS complicated by acute KMS and fetal growth
+restriction with abnormal umbilical artery Doppler findings. We
+highlight the clinical challenges and management strategies and
+underscores the importance of early recognition and coordinated care to
+optimize maternal and neonatal outcomes.
+
+\section{Case Presentation}\label{case-presentation}
+
+A 28-year-old multigravida, P2CS+1 (1L) was first admitted at 30+1 weeks
+of gestation for clinically significant hematuria on the 16th of
+December in Ain Shams University Hospital, Egypt. The timeline is
+detailed in Table~\ref{tbl-1}
+
+The patient was first diagnosed at two years of age with
+Klippel-Trenaunay syndrome (KTS) involving both lower limbs, back,
+pelvis, and urinary bladder. She underwent surgery for varicose veins
+seven years ago, as well as orthopedic surgery for the insertion of
+plates and screws a year and a half ago.
+
+Her obstetric history includes two cesarean sections. Her first
+pregnancy was seven years ago and ended in neonatal death. Her second
+pregnancy was complicated by severe preeclampsia, postpartum wound
+hematoma, and sepsis, requiring ICU admission. She also had a history of
+spontaneous miscarriage for which she did not undergo dilatation and
+curettage. For her current pregnancy, she received two doses of
+antenatal corticosteroids on December 14\textsuperscript{th} and
+15\textsuperscript{th}.
+
+On examination, her blood pressure was 120/80 mmHg, temperature was
+36.2° C, and heart rate was 68 bpm. Port-wine stains were seen in the
+back and gluteal region with discrepancy in the length of both lower
+limbs.
+
+A complete blood picture (CBC) revealed microcytic hypochromic anemia
+(hemoglobin 7.0 g/dl, hematocrit 23.0\%) and thrombocytopenia (128,000
+u/L), for which she received six units of packed cell transfusion to
+correct the worsening hemoglobin. ABO and Rh typing indicated B positive
+blood. Viral workup was negative for Hepatitis C and B and human
+immunodeficiency virus (HIV).
+
+Ultrasonography (US) demonstrated estimated fetal weight below the 10th
+percentile consistent with intrauterine growth restriction (IUGR), and
+an abnormal umbilical artery Doppler showing absent end-diastolic blood
+flow.
+
+Urological consultation was sought for the significant hematuria.
+Initial management included intravenous tranexamic acid and insertion of
+an indwelling silicone three-way urinary catheter for one week.
+
+On December 18\textsuperscript{th}, pelviabdominal magnetic resonance
+imaging (MRI) was performed, demonstrating a gravid uterus with a single
+intrauterine pregnancy in cephalic lie with unremarkable placental
+location and attachment. Compression of the left ovarian vein and the
+left common iliac vein by the gravid uterus was seen, with associated
+slowing and dilatation of both veins. Extensive dilated tubular tortuous
+lesions suggestive of varicosities were observed in the pelvic,
+perivesical, perineal, and gluteal regions, more prominent on the left
+side, showing a ``bag of worms'' appearance. Similar lesions were
+present in breast subcutaneous tissue bilaterally. The urinary bladder
+contained blood products.\\
+The liver was mildly enlarged with noticeable vascular compression,
+while the gall bladder, spleen, and kidneys were unremarkable. Minimal
+bilateral pleural effusion was noticed.
+
+On December 21\textsuperscript{st}, pelviabdominal ultrasonography,
+Color-Doppler study of both lower limb veins, and Color-Doppler and
+duplex study of both lower limb arteries were performed.\\
+Pelviabdominal ultrasonography revealed hepatosplenomegaly, soft tissue
+lesions in the urinary bladder, bilateral refluxing parametrial venous
+channels, and a single viable intra-uterine fetus.\\
+Lower limb vessel studies showed a normal venous and arterial system,
+with no evidence of deep vein thrombosis.
+
+Serial CBCs showed improving hemoglobin over the four days following the
+packed RBCs transfusion, which reached 9.4g/dL on December
+22\textsuperscript{nd}, while platelet count remained persistently low
+between 82,000 and 104,000. Iron profile showed elevated UIBC
+(unsaturated iron binding capacity) and low transferrin saturation.
+Lactate dehydrogenase (LDH) was elevated at 454 IU/L.\\
+On the same day, urinalysis demonstrated hematuria (2+), pyuria, and
+mild proteinuria (1+). Microscopic examination revealed \textgreater100
+red blood cells per high power field (RBCs/HPF), 40-45 pus cells per
+high power field (Pus Cell/HPF), and increased epithelial cells (2+).
+Uric acid crystals were present (2+). Other parameters were within
+normal limits.
+
+Coagulation studies on December 27\textsuperscript{th} and
+28\textsuperscript{th} showed slightly elevated Prothrombin time (PT)
+while serum creatinine was low.
+
+A contrast-enhanced pelvic MRI was done on January 1, showing extensive
+venous malformations within the pelvis involving the cervix, vagina,
+anal canal, and extending downwards to the perineum and both labias.
+Extensive lesions were also seen within the gluteal region, thigh,
+anterior part of the abdominal cavity, and intravesically.
+
+The patient was monitored daily with regular assessment of vital
+parameters, general condition, fetal kicks, vaginal bleeding, uterine
+contractions, and evidence of membrane rupture. She received one unit of
+packed RBCs on January 2, followed by an additional unit on January 5.~~
+
+At 35 weeks of gestation, based on worsening fetal Doppler parameters
+and maternal risks, a multidisciplinary team involving obstetrics,
+hematology, anesthesia, and neonatology recommended delivery by
+emergency cesarean section. Subsequently, on the 18\textsuperscript{th}
+of January, a cesarean section was performed at 35 weeks of gestation
+under general endotracheal anesthesia.\\
+Vertical midline abdominal incision was made revealing significant
+varicosities in the anterior abdominal wall, over the lower uterine
+segment, and in the interface between the uterus and the bladder. Lower
+segment incision of the uterus was made to deliver the fetus and
+placenta. This was followed by closure of the uterine wall in two
+layers. Placenta was complete, perineum intact. Hemostasis was secured
+and no intraperitoneal drains were left. Only a subcutaneous drain was
+inserted for seven days. The skin was closed by interrupted mattress
+sutures.
+
+A female neonate weighing 1900 g was delivered with Apgar scores of 7
+and 9 at 1 and 5 minutes respectively. The neonate did not receive
+vaccination due to low birth weight and did not require observation or
+respiratory support.
+
+Postoperatively, the mother was admitted to the intensive care unit
+(ICU) due to hemoperitoneum. Her pharmacological therapy included
+low-molecular-weight heparin (LMWH), tranexamic acid, ceftriaxone,
+pantoprazole, intravenous paracetamol, and charcoal-based herbal
+
+Slight hematuria was noted on the first post-operative day, and labs
+showed a declining hemoglobin and platelet count, as well as markedly
+elevated LDH, alkaline phosphatase, creatine kinase, and bilirubin. LMWH
+therapy was thereby put on hold, and the patient was given packed red
+blood cells and fresh frozen plasma, receiving a total of ten units of
+packed cell transfusion and fresh frozen plasma (with a one-to-one
+ratio) over the course of seven days. Additional laboratory
+investigations are demonstrated in Table~\ref{tbl-2}
+
+On the second post-operative day, the patient's hemoglobin and platelet
+count rapidly deteriorated, decreasing from 9.6g/dl and 218,000 plt to
+7.6g/dl and 104,000 plt respectively. Replacement with blood products
+continued.
+
+On post-operative day three, TVUS revealed marked hemoperitoneum with a
+localized hematoma related to the lower uterine segment, approximately
+12 cm in maximum length. A decision for conservative management was made
+by the attending consultant and the head of the unit. Pharmacological
+therapy was adjusted; LWMH was resumed, in addition to tranexamic acid,
+1 amp calcium, 1 amp dexamethasone, magnesium sulfate, cefepime,
+omeprazole, clindamycin, and intravenous paracetamol.
+
+On post-operative day four, labs showed low fibrinogen (1.4g/l) and
+significantly elevated D-dimer (35.200 ug/mlFEU). These findings were
+suggestive of Kasabach Meritt Syndrome.
+
+Urinalysis on day 6 demonstrated hematuria (2+), mild pyuria and mild
+proteinuria (1+). Microscopic examination revealed \textgreater100 red
+blood cells per high power field (RBCs/HPF), 13-15 pus cells per high
+power field (Pus Cell/HPF), and increased epithelial cells (1+). On day
+7, her hemoglobin stabilized at 10.1 g/dl and remained stable over the
+following three days, while her platelet count remained low at 64,000.
+
+After further stabilization, the patient was discharged on day ten
+postoperatively. She was seen on day nineteen in the outpatient clinic.
+General condition was fair, lax abdomen, and skin sutures were removed
+with optimal healing of the abdominal incision.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.2321}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.7679}}@{}}
+\caption{Patient timeline}\label{tbl-1}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Date
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Timeline
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Date
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Timeline
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+December 16, 2025 (30+1 weeks) & Admission of pregnant 28-year-old
+presenting with hematuria with prior diagnosis of Klippel-Trenaunay
+Syndrome (KTS).
+
+CBC revealed anemia and thrombocytopenia; ultrasound demonstrated fetal
+weight below 10\textsuperscript{th} percentile.
+
+Tranexamic acid and six units of packed red cell transfusion were
+administered. \\
+December 18, 2025 -- January 17, 2026 & MRI showed extensive venous
+malformations in the pelvis, thigh, and anterior part of the abdominal
+cavities.
+
+Regular fetal and maternal monitoring continued, with packed red blood
+cell transfusions as needed.
+
+Hemoglobin slightly improved. Platelet count initially increased before
+rapidly declining again. PT was prolonged. \\
+\begin{minipage}[t]{\linewidth}\raggedright
+January 18, 2026\\
+
+(35 weeks of gestation)\strut
+\end{minipage} & Emergency cesarean section due to worsening fetal
+status. A female neonate weighing 1900g was delivered.
+
+The mother was admitted to the ICU due to hemoperitoneum. LMWH was
+initiated along with tranexamic acid and other medications. \\
+1st post-op day & Hematuria was noted, prompting discontinuation of
+LMWH.
+
+A total of ten units of red blood cells and fresh frozen plasma were
+transfused over the course of the following seven days. \\
+2nd post-op day & Hemoglobin and platelet count decreased markedly, from
+9.6g/dL and 218,000 to 7.6g/dL and 104,000 plt, respectively. \\
+3rd post-op day & A decision for conservative management was made. LWMH
+was resumed, along with tranexamic acid and other medications. \\
+4th post-op day & Laboratory studies showed low fibrinogen (1.4g/l) and
+high D-dimer (35.2 ug/ml/ FEU), suggesting Kasabach-Meritt Syndrome. \\
+7th post-op day & Hemoglobin stabilized at 10.1g/dl, platelet count
+remained low at 64,000. \\
+10th post-op day & Patient was discharged after further
+stabilization. \\
+19th post-op day & Follow-up at the outpatient clinic. General condition
+was fair and abdominal sutures were removed. \\
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 18\tabcolsep) * \real{0.1000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 18\tabcolsep) * \real{0.1000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 18\tabcolsep) * \real{0.1000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 18\tabcolsep) * \real{0.1000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 18\tabcolsep) * \real{0.1000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 18\tabcolsep) * \real{0.1000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 18\tabcolsep) * \real{0.1000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 18\tabcolsep) * \real{0.1000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 18\tabcolsep) * \real{0.1000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 18\tabcolsep) * \real{0.1000}}@{}}
+\caption{Relevant abnormal laboratory results throughout the clinical
+course.}\label{tbl-2}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Parameters/Timing
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+December 16 (Day of admission)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+December 22
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+December 28
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+POD 1
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+POD 2
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+POD 4
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+POD 6
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+POD 7
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Reference range
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Parameters/Timing
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+December 16 (Day of admission)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+December 22
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+December 28
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+POD 1
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+POD 2
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+POD 4
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+POD 6
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+POD 7
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Reference range
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Hb (g/dL) & 7.0 & 7.6 & 10.2 & 9.6 & 7.6 & 8.6 & 10.0 & 10.0 &
+12.0-15.0 \\
+HCT (\%) & 23.0 & 23.5 & 33.1 & 20.0 & 21.8 & 26.8 & 30.8 & - & 36-46 \\
+Platelets (/µL) & 128,000 & 97,000 & 129,000 & 218,000 & 104,000 &
+75,000 & 64,000 & 64,000 & 150,000--410,000 \\
+PT (seconds) & - & - & 12.4 & 40.70 & - & - & 17.7 & - & 11.7--15.3 \\
+aPTT (seconds) & - & - & - & - & - & - & 48.90 & - & 26-40 \\
+Fibrinogen (g/L) & - & - & - & - & - & 1.4 & - & - & 2.00-4.00 \\
+D-dimer (µg/mL FEU) & - & - & - & - & - & 35.2 & - & - & 0-0.55 \\
+Total bilirubin (mg/dL) & - & - & - & 2.8 & 1.8 & - & 1.4 & - &
+1.8-3.5 \\
+ALP (IU/L) & - & - & - & 135 & 115 & - & 108 & - & 34--104 \\
+LDH (IU/L) & - & 454 & - & 424 & 357 & - & 449 & - & 140--271 \\
+BUN (mg/dL) & - & - & - & - & - & - & 24 & - & 5--23 \\
+Serum creatinine (mg/dL) & - & - & 0.35 & - & - & 0.30 & - & - &
+0.6--1.2 \\
+\end{longtable}
+
+POD: Post operative day, Hb: Hemoglobin, HTC: Hematocrit, PT:
+Prothrombin time, aPTT: Activated partial thromboplastin time, ALP:
+Alkaline phosphatase, LDH : Lactate dehydrogenase, BUN: Blood Urea
+Nitrogen.
+
+\section{Review of literature}\label{review-of-literature}
+
+We searched MEDLINE, Embase, and Scopus. Only three cases of KTS
+complicated with KMS in pregnancy have been reported, reflecting the
+rarity of this condition. KTS was diagnosed prior to pregnancy in two
+cases, while it was misdiagnosed as acromegaly and only identified
+during the last trimester in the third {[}9{]}. All cases had the
+typical clinical findings of KTS, including multiple varicosities at
+different sites, hypertrophy, and hemangiomas, with one case also
+showing port-wine stains {[}9{]}. Postpartum laboratory findings failed
+to improve despite treatment suggesting refractory coagulopathy which is
+consistent with KMS. All cases involved vulval varicosities that
+necessitated cesarean delivery, with profuse bleeding occurring either
+during or after the operation and requiring multiple transfusions. All
+were managed with a multidisciplinary approach and received
+anticoagulants and transfusions, with two requiring massive
+transfusion{[}7,9{]}, other lines of treatment included corticosteroids
+and antifibrinolytics{[}7,8{]}. One patient required postpartum
+hysterectomy due to life-threatening hemorrhage, along with other severe
+complications including DIC, sepsis, peritonitis, and hemoperitoneum
+requiring emergency laparotomy {[}9{]}. All required prolonged post op
+hospital admission. None of the neonates showed evidence of KTS.
+Detailed summary of the three cases is shown in Table~\ref{tbl-3}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.0272}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1211}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.2518}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.2123}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.2886}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.0956}}@{}}
+\caption{}\label{tbl-3}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Author and year
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Presentation
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Clinical findings
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Laboratory findings and KMS diagnosis
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Management
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Maternal and neonatal Outcome
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Author and year
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Presentation
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Clinical findings
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Laboratory findings and KMS diagnosis
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Management
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Maternal and neonatal Outcome
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Neubert, 1995 {[}7{]} & 22-year-old known KTS patient, primigravida, 37
+weeks, for genetic counseling and delivery management. & Multiple
+subcutaneous hemangiomas, ipsilateral thigh hypertrophy and massive
+right labial varicosities extending along the right vaginal wall. & DIC
+Postoperatively with refractory coagulopathy. Thrombocytopenia, elevated
+PT/PTT and fibrin split products. Decreased fibrinogen and coagulation
+factors II, V, and VIII),~D-dimer not specifically reported. KMS
+diagnosed postoperatively. & Uncomplicated cesarean delivery at 39
+weeks. Repeated evacuation of postoperative wound hematoma. ICU
+transfer, massive transfusion, Cefotetan, IV heparin and aminocaproic
+acid. & Discharged on post operative day 20. Healthy neonate. \\
+Kanmani,
+
+2021 {[}8{]} & A 24-year-old known KTS patient, primigravida, ,29 weeks'
+gestation, with bleeding gums for two days. & Multiple varicosities,
+swelling and hypertrophy of left lower limb. Vulval varicosities. &
+Severe thrombocytopenia. Fibrinogen and D-dimer not reported. KMS
+diagnosed antenatally. & Steroids and platelet transfusion at 16 weeks.
+Daily steroid therapy starting at 29 weeks. Emergency caesarean section
+at 35 weeks with platelet transfusion. Postoperative anticoagulant and
+steroid therapy. & Discharged on post operative day 20. Healthy
+neonate. \\
+Zhang, 2019 {[}9{]} & 26-year-old woman diagnosed with KTS in
+3\textsuperscript{rd} trimester, presented with sudden heavy vaginal
+bleeding 10 days after caesarean delivery. & Hemodynamically unstable
+with tender, bulging lower abdomen, subcutaneous ecchymoses, and
+palpable incisional mass. Multiple hemangiomas, varicosities, and
+port-wine stains over left buttock and entire left lower limb, with
+massive limb hypertrophy and large left labial varicosities. & KMS
+diagnosed postoperatively. Labs showed low hemoglobin and hematocrit
+with thrombocytopenia ,prolonged~PT and APTT. Low Fibrinogen and
+elevated~P-FDP,~unmeasurable~D-dimer. & Caesarean section at 39 weeks
+for large vulvovaginal varicosities. All measures failed to control
+postpartum bleeding. Emergency hysterectomy, followed by laparotomy for
+hemoperitoneum with pelvic packing, bilateral internal iliac artery
+embolization, and wound dehiscence closure. Coagulopathy managed with
+LMWH and warfarin. & Hysterectomy due to uncontrolled hemorrhage.
+Discharged after 42 days of hospitalization. Healthy neonate. \\
+\end{longtable}
+
+\section{Discussion}\label{discussion}
+
+The occurrence of KTS complicated by KMS during pregnancy is extremely
+rare, and, to our knowledge, only three cases have been reported.
+{[}7--9{]}
+
+Klippel-Trenaunay Syndrome (KTS), also referred to as
+capillary-lymphatic-venous malformation (CLVM), is characterized by
+capillary malformations, soft tissue or bony hypertrophy, and varicose
+veins or venous malformations. The presence of at least two of these
+features suggests the diagnosis, which is supported by imaging. Magnetic
+resonance imaging, Color Doppler studies, and pelviabdominal ultrasounds
+may all be used to visualize vascular malformations associated with
+KTS.{[}10{]}
+
+Its hallmark features predominantly affect one lower limb (85\%) causing
+a discrepancy in limb length, although bilateral involvement may occur
+in a minority of cases (12.5\%). However, it is a generalized disorder
+and can involve multiple body regions including the pelvis, abdomen,
+head and neck, as well as back, pelvis, and bladder as in our case.
+Capillary malformations are the most common presentation (98\%),
+followed by varicosities or venous malformations (72\%), and limb
+hypertrophy (67\%) {[}11{]}.
+
+Morbidity in KTS primarily arises from an increased risk of venous
+insufficiency, thromboembolism, and hemorrhage. Pregnancy may further
+aggravate these risks, although evidence regarding pregnancy outcomes
+and optimal management remains limited. A cross-sectional study of sixty
+adult women with KTS reported increased risks of pregnancy-associated
+deep vein thrombosis, pulmonary embolism, and severe postpartum
+hemorrhage compared with the general population, with nearly half the
+patients also experiencing exacerbation of KTS-related symptoms{[}12{]}.
+In contrast, another study comparing pregnant women with KTS versus
+nulligravid women with KTS found no difference in bleeding or
+thromboembolic risk, although a limitation was the possibility of women
+with more severe KTS being discouraged from pregnancy {[}13{]}.
+
+Fetal complications, including intrauterine growth restriction (IUGR),
+were reported in a few cases, including our case. However, no
+significant fetal effects were reported in the majority of patients with
+KTS, indicating that its impact on fetal development is generally
+limited.{[}14{]}
+
+Patients may present with a wide variety of manifestations either
+primary or due to complications such as pain, bleeding, cellulitis,
+massive vaginal bleeding, visceral bleeding, and bleeding gums, and
+other vascular complications such as severe hematuria and hematochezia
+(fewer than 5\%). Our case presented with clinically significant
+hematuria. Other less common but serious manifestations include deep
+vein thrombosis (5.8\%), pulmonary embolism (2.3\%), severe PPH (11\%),
+and potential preeclampsia. {[}14,15{]}
+
+Kasabach-Merritt Syndrome (KMS), a rare but life-threatening
+complication, is characterized by thrombocytopenia, microangiopathic
+hemolytic anemia, and consumptive coagulopathy in the presence of a
+vascular tumor {[}16{]}. Patients commonly present with persistent
+bleeding and thrombocytopenia refractory to blood products. Our patient
+developed post-op hematoma and hemoperitoneum which was managed
+conservatively with success. Specific therapy was initiated once
+Kasabach-Merritt syndrome was suspected and the patient eventually made
+a complete recovery. The prompt recognition and initiation of therapy
+are critical to reduce mortality in KMS. Delayed recognition was
+associated with more complicated clinical courses, as in the KTS patient
+at 39 weeks who was not previously diagnosed with KTS, and did not
+receive LMWH, losing 1500 mL of blood of post-op and 4500mL of blood
+through vaginal bleeding on day 10 postpartum, necessitating a
+hysterectomy and abdominal gauze packing.{[}9{]}
+
+Diagnosis of KMS is confirmed by lab findings of thrombocytopenia,
+hypofibrinogenemia, elevated D-dimer, and prolonged coagulation times.
+The absence of thrombocytopenia may indicate refractory coagulopathy
+rather than KMS, although atypical presentations should be suspected in
+presence of hemangiomas.{[}15{]}
+
+The management of KTS becomes more complex when complicated by Kasabach
+Merritt syndrome (KMS). Imaging studies are crucial for assessing the
+extent of vascular malformations near the spinal cord and pelvic
+structures, with MRI being the preferred imaging modality for accurately
+evaluating lesions size, extent, and anatomical involvement which is
+critical for planning the anesthesia and delivery type. Doppler
+ultrasound is effective for diagnosing venous malformations. Regular
+maternal and fetal assessment is essential due to risk of placental
+involvement {[}17,18{]}. Our patient underwent first-trimester
+ultrasound and MRI at 30 weeks. MRI demonstrated extensive venous
+malformations involving the pelvic, perivesical, perineal, gluteal,
+thigh, and anterior abdominal regions. Ultrasound revealed
+hepatosplenomegaly, soft tissue lesions in the urinary bladder,
+bilateral refluxing parametrial venous channels, and no evidence of deep
+vein thrombosis.
+
+Deciding the mode of delivery in a pregnant woman with KTS requires a
+multidisciplinary team (MDT). In most reported cases, cesarean section
+was opted for due to the presence of vulval varicosities.{[}19{]} In our
+case, emergency cesarean section under general anesthesia was
+recommended by an MDT involving obstetrics, hematology, anesthesia, and
+neonatology due to both fetal and maternal risks. Vertical midline
+abdominal incision revealed significant varicosities in the anterior
+abdominal wall, over the lower uterine segment, and in the interface
+between the uterus and the bladder. Comprehensive preparations were made
+before and after delivery, including the administration of tranexamic
+acid and LMWH.
+
+Prophylactic anticoagulation with LMWH should be considered during
+pregnancy period given the elevated risk of VTE {[}20{]}, with regular
+coagulopathy monitoring and Imaging. Postpartum management may involve
+anticoagulation, platelet transfusion, cryoprecipitate, fresh frozen
+plasma and antifibrinolytic agents such as TXA. Postpartum follow up is
+essential as KMS can develop or worsen after delivery and they may
+require large volumes of blood products to manage the ongoing
+coagulopathy, but typically remain refractory, showing minimal to no
+improvement. {[}12{]}
+
+\section{Conclusion}\label{conclusion}
+
+Pregnancy in women with Klippel--Trenaunay syndrome complicated by
+Kasabach--Merritt syndrome is extremely rare and posing significant
+diagnostic challenges. Early suspicion and diagnosis with intensive
+antenatal surveillance and multidisciplinary management are crucial to
+navigate the complex balance between thrombosis and bleeding and to
+optimize maternal and perinatal outcomes in such high risk cases.
+
+\section{Abbreviation}\label{abbreviation}
+
+Klippel-Trenaunay syndrome (KTS)
+
+Kasabach Meritt Syndrome (KMS)
+
+Magnetic resonance imaging (MRI)
+
+Ultrasonography (US)
+
+Transvaginal ultrasound (TVUS)
+
+Intensive care unit (ICU)
+
+Low-molecular-weight heparin (LMWH)
+
+Lactate dehydrogenase (LDH)
+
+Blood Urea Nitrogen (BUN)
+
+Prothrombin time (PT)
+
+Partial Thromboplastin Time (PTT)
+
+Complete blood picture (CBC)
+
+Disseminated Intravascular Coagulation (DIC)
+
+Multidisciplinary team (MDT)
+
+\section{Declarations}\label{declarations}
+
+\subsection{Ethics approval and consent to
+participate}\label{ethics-approval-and-consent-to-participate}
+
+Not applicable.
+
+\subsection{Consent for publication}\label{consent-for-publication}
+
+A written consent for publication has been obtained from the patient.
+
+\subsection{Availability of data and
+materials}\label{availability-of-data-and-materials}
+
+The data and materials supporting the conclusions of this article are
+available as a supplementary materials.
+
+\subsection{Competing interests}\label{competing-interests}
+
+The authors declare that they have no competing interests.
+
+\subsection{Funding}\label{funding}
+
+This research received no specific grant from any funding agency in the
+public, commercial or not-for-profit sectors.
+
+\subsection{Authors' contributions}\label{authors-contributions}
+
+SIA, ME, AFN contributed to writing the first draft of the manuscript.
+All the authors revised the manuscript critically for important
+intellectual content. All authors approved the final version of the
+manuscript.
+
+\subsection{Acknowledgements}\label{acknowledgements}
+
+We sincerely thank the healthcare providers at Ain Shams University
+Hospital of Obstetrics and Gynecology for their dedication and
+commitment to patient care in the operating room. We deeply appreciate
+their contributions and the valuable role they play in ensuring
+high-quality surgical care.
+
+\section*{References}\label{references}
+\addcontentsline{toc}{section}{References}
+
+\phantomsection\label{refs}
+\begin{CSLReferences}{0}{1}
+\bibitem[\citeproctext]{ref-ISSVA2018}
+1. International Society for the Study of Vascular Anomalies. {ISSVA
+Classification for Vascular Anomalies}.
+\url{https://www.issva.org/UserFiles/file/ISSVA-Classification-2018.pdf};
+2018.
+
+\bibitem[\citeproctext]{ref-Pavone2023}
+2. Pavone P, Marino L, Cacciaguerra G, Di Nora A, Parano E, Musumeci G,
+et al. \href{https://doi.org/10.3390/children10081421}{Klippel-trenaunay
+syndrome, segmental/focal overgrowth malformations: A review}. Children
+(Basel). 2023;10:1421.
+
+\bibitem[\citeproctext]{ref-mckusick1963}
+3. McKusick VA. Frederick Parkes Weber{\textemdash}1863-1962. JAMA
+{[}Internet{]}. 1963;183. Available from:
+\url{http://dx.doi.org/10.1001/jama.1963.63700010018015}
+
+\bibitem[\citeproctext]{ref-sikova1999}
+4. Sikova DVD, Pavlova LjT, Laskoska MTV, Nikolovska ST, Biljanovska NC.
+Naevus varicosus osteohypertrophicus. Springer US; 1999. p. 535--40.
+Available from: \url{http://dx.doi.org/10.1007/978-1-4615-4857-7_80}
+
+\bibitem[\citeproctext]{ref-Blei2024}
+5. Blei F. {Klippel-Trenaunay Syndrome: Clinical Manifestations,
+Diagnosis, and Management}. UpToDate.
+\url{https://www.uptodate.com/contents/klippel-trenaunay-syndrome-clinical-manifestations-diagnosis-and-management};
+2024.
+
+\bibitem[\citeproctext]{ref-Tian2026}
+6. Tian Y, Yuan Y, Wei L, Xu Z, Li L, Li L.
+\href{https://doi.org/10.1002/ped4.70041}{Kaposiform
+hemangioendothelioma: Diagnosis and treatment}. Pediatric Investigation.
+2026;
+
+\bibitem[\citeproctext]{ref-Neubert1995}
+7. Neubert GA, Golden MA, Rose NC.
+\href{https://doi.org/10.1016/0029-7844(94)00349-I}{Kasabach-merritt
+coagulopathy complicating klippel-trenaunay-weber syndrome in
+pregnancy}. Obstetrics \& Gynecology. 1995;85:831--3.
+
+\bibitem[\citeproctext]{ref-Kanmani2021}
+8. Kanmani K, Meena M, Narmadha D, A. GV.
+\href{https://doi.org/10.18203/2320-1770.ijrcog20211511}{Klippel
+trenaunay syndrome--an obstetric challenge}. International Journal of
+Reproduction, Contraception, Obstetrics and Gynecology. 2021;10:2081--4.
+
+\bibitem[\citeproctext]{ref-zhang2019}
+9. Zhang J, Wang K, Mei J. Late puerperal hemorrhage of a patient with
+Klippel{\textendash}Trenaunay syndrome. Medicine {[}Internet{]}.
+2019;98:e18378. Available from:
+\url{http://dx.doi.org/10.1097/MD.0000000000018378}
+
+\bibitem[\citeproctext]{ref-horbach2017}
+10. Horbach S, Lokhorst M, Oduber C, Middeldorp S, Post J van der, Horst
+C van der. Complications of pregnancy and labour in women with
+Klippel{\textendash}Trénaunay syndrome: a nationwide cross{-}sectional
+study. BJOG: An International Journal of Obstetrics \& Gynaecology
+{[}Internet{]}. 2017;124:1780--8. Available from:
+\url{http://dx.doi.org/10.1111/1471-0528.14698}
+
+\bibitem[\citeproctext]{ref-Jacob1998}
+11. Jacob AG, Driscoll DJ, Shaughnessy WJ, Stanson AW, Clay RP,
+Gloviczki P. Klippel-Trénaunay Syndrome: Spectrum and Management. Mayo
+Clinic Proceedings {[}Internet{]}. 1998;73:28--36. Available from:
+\url{http://dx.doi.org/10.1016/S0025-6196(11)63615-X}
+
+\bibitem[\citeproctext]{ref-silvacorreia2024}
+12. Silva Correia IF, Hussain M, Johnson J-A. Obstetric management for
+pregnant women with Klippel{\textendash}Trenaunay syndrome: A UK case
+report and review of the literature. International Journal of Gynecology
+\& Obstetrics {[}Internet{]}. 2024;168:484--6. Available from:
+\url{http://dx.doi.org/10.1002/ijgo.15889}
+
+\bibitem[\citeproctext]{ref-Marvin2019}
+13. Marvin EK, Schoch JJ, Nguyen H, Anderson KR, Driscoll DJ, Rose CH,
+et al. Venous thromboembolic and bleeding complications among pregnant
+women with Klippel-Trenaunay syndrome. Journal of the American Academy
+of Dermatology {[}Internet{]}. 2019;81:1277--82. Available from:
+\url{http://dx.doi.org/10.1016/j.jaad.2019.04.018}
+
+\bibitem[\citeproctext]{ref-Akay2025}
+14. Akay E, Uzun Gül AD, Türkoğlu A.
+\href{https://doi.org/10.1186/s12884-025-07540-0}{Recurrent preeclampsia
+in a pregnant woman with klippel-trenaunay syndrome: Two cesarean
+deliveries and multiple extremity involvement -- case report and
+literature review}. BMC Pregnancy and Childbirth. 2025;25:407.
+
+\bibitem[\citeproctext]{ref-Chang2025}
+15. Chang R, Zhang J, Zhang F, Wen L, Jiang Y. Pregnancy in Women With
+Klippel{\textendash}Trenaunay Syndrome Complicated by Uterine Vascular
+Malformation: A Case Report and Literature Review. Cureus
+{[}Internet{]}. 2025; Available from:
+\url{http://dx.doi.org/10.7759/cureus.90065}
+
+\bibitem[\citeproctext]{ref-Mahajan2017}
+16. Mahajan P, Margolin J, Iacobas I. Kasabach-Merritt Phenomenon:
+Classic Presentation and Management Options. Clinical Medicine Insights:
+Blood Disorders {[}Internet{]}. 2017;10:1179545X1769984. Available from:
+\url{http://dx.doi.org/10.1177/1179545X17699849}
+
+\bibitem[\citeproctext]{ref-Howlett1994}
+17. Howlett DC, Roebuck DJ, Frazer CK, Ayers B. The use of ultrasound in
+the venous assessment of lower limb Klippel-Trenaunay syndrome. European
+Journal of Radiology {[}Internet{]}. 1994;18:224--6. Available from:
+\url{http://dx.doi.org/10.1016/0720-048x(94)90340-9}
+
+\bibitem[\citeproctext]{ref-Asghar2020}
+18. Asghar F, Aqeel R, Farooque U, Haq A, Taimur M. Presentation and
+Management of Klippel-Trenaunay Syndrome: A Review of Available Data.
+Cureus {[}Internet{]}. 2020; Available from:
+\url{http://dx.doi.org/10.7759/cureus.8023}
+
+\bibitem[\citeproctext]{ref-Keepanasseril2017}
+19. Keepanasseril A, Keerthana K, Keepanasseril A, Maurya DK, Kadambari
+D, Sistla S. Pregnancy in women with Klippel-Trenaunay syndrome: Report
+of three pregnancies in a single patient and review of literature.
+Obstetric Medicine {[}Internet{]}. 2017;10:177--82. Available from:
+\url{http://dx.doi.org/10.1177/1753495X17719181}
+
+\bibitem[\citeproctext]{ref-marvin2019}
+20. Marvin EK, Schoch JJ, Nguyen H, Anderson KR, Driscoll DJ, Rose CH,
+et al. Venous thromboembolic and bleeding complications among pregnant
+women with Klippel-Trenaunay syndrome. Journal of the American Academy
+of Dermatology {[}Internet{]}. 2019;81:1277--82. Available from:
+\url{http://dx.doi.org/10.1016/j.jaad.2019.04.018}
+
+\end{CSLReferences}
+
+
+
+
+\end{document}
