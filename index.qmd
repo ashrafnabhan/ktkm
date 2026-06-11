@@ -116,7 +116,7 @@ Following clinical stabilization, the patient was discharged on postoperative da
 | ALP (IU/L) | \- | \- | \- | 135 | 115 | \- | 108 | \- | 34–104 |
 | LDH (IU/L) | \- | 454 | \- | 424 | 357 | \- | 449 | \- | 140–271 |
 
-: Laboratory results throughout the clinical course.
+: Laboratory results throughout the clinical course
 
 POD: Post operative day, Hb: Hemoglobin, HTC: Hematocrit, PT: Prothrombin time, ALP: Alkaline phosphatase, LDH : Lactate dehydrogenase.
 
