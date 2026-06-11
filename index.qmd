@@ -34,29 +34,21 @@ Pregnancy poses considerable challenges in patients with KTS, as hormonal and he
 
 Kasabach-Merritt syndrome (KMS), first described in 1940, is a rare and potentially fatal condition defined by the triad of thrombocytopenia, microangiopathic hemolytic anemia, and consumptive coagulopathy occurring in association with vascular abnormalities [@Mahajan2017]. In the setting of KTS, pregnancy and labor may precipitate or exacerbate KMS; the concurrent occurrence of both conditions during the peripartum period constitutes a critical obstetric emergency carrying a reported mortality rate of 30–40% [@Tian2026].
 
-To date, only three cases of KTS complicated by KMS in pregnancy have been documented in the literature [@Neubert1995; @Kanmani2021; @zhang2019]. We report a fourth case, describing the clinical course and successful multidisciplinary management of a pregnant woman with KTS complicated by fetal growth restriction and peripartum acute KMS. Through this case, we aim to illuminate the clinical challenges inherent to this rare complication, outline effective management strategies, and emphasize the critical role of early recognition and interdisciplinary collaboration in achieving favorable maternal and neonatal outcomes.
+To date, only three cases of KTS complicated by KMS in pregnancy have been reported in the literature [@Neubert1995; @Kanmani2021; @zhang2019]. We hereby describe the clinical course and successful multidisciplinary management of a pregnancy in a woman with KTS complicated by fetal growth restriction and peripartum acute KMS. Through this case, we aim to describe the clinical challenges inherent to this rare case, outline effective management strategies, and emphasize the critical role of early recognition and interdisciplinary collaboration in achieving favorable maternal and neonatal outcomes.
 
 # Case Presentation
 
-A 28-year-old multigravida (P2+1, both prior deliveries by cesarean section, one living child) presented at 30+1 weeks' gestation with clinically significant hematuria and was admitted on December 16th to Ain Shams University Hospital, Egypt. The clinical timeline is detailed in @tbl-1.
+A 28-year-old multigravida presented at 30+1 weeks' gestation with clinically significant hematuria and was admitted on December 16th to Ain Shams University Hospital, Egypt. Her medical history was notable for Klippel–Trenaunay syndrome (KTS), diagnosed at two years of age. She had an extensive KTS phenotype, with disease involvement encompassing both lower limbs, the back, pelvis, urinary bladder, and breast tissue — a distribution reflecting a multisystem vascular dysplasia. Her surgical history included varicose vein surgery seven years prior and orthopedic fixation with plates and screws approximately 18 months before this admission. Her past obstetric history was significant. Her first pregnancy, seven years prior, ended in neonatal death. Her second pregnancy was complicated by severe preeclampsia, postpartum wound hematoma, and sepsis necessitating ICU admission. She also had a history of one spontaneous miscarriage In the current pregnancy, she received two doses of antenatal corticosteroids on December 14th and 15th.
 
-Her past medical history is notable for Klippel–Trenaunay syndrome (KTS), diagnosed at two years of age. Physical examination on admission revelaed an extensive KTS phenotype, with disease involvement encompassing both lower limbs, the back, pelvis, urinary bladder, and breast tissue — a distribution reflecting the multisystem vascular dysplasia characteristic of KTS. She exhibited the hallmark triad of varicosities, limb hypertrophy, and hemangiomas, with port-wine stains additionally present over the gluteal region. 
+On admission, vital signs were stable with a blood pressure 120/80 mmHg, temperature 36.2°C, and heart rate 68 bpm. Physical examination revealed port-wine stains over the back and gluteal region, with discrepancy in lower limb length bilaterally. Blood typing identified B-positive blood group, and viral serology was negative for hepatitis B, hepatitis C, and HIV. Her complete blood count (CBC) demonstrated microcytic hypochromic anemia (hemoglobin 7.0 g/dL, hematocrit 23.0%) and thrombocytopenia (128,000/µL). She received six units of packed red blood cells (pRBCs) to correct her declining hemoglobin. Obstetric ultrasonography revealed an estimated fetal weight below the 10th percentile, consistent with fetal growth restriction (FGR). There was an absent end-diastolic flow on umbilical artery Doppler.
 
-Her surgical history included varicose vein surgery seven years prior and orthopedic fixation with plates and screws approximately 18 months before this admission.
+Urological consultation was obtained for management of severe hematuria, with initial measures comprising intravenous tranexamic acid and insertion of a three-way indwelling silicone urinary catheter maintained for one week.
 
-Her obstetric history was significant. Her first pregnancy, seven years prior, ended in neonatal death. Her second pregnancy was complicated by severe preeclampsia, postpartum wound hematoma, and sepsis necessitating ICU admission. She also had a history of spontaneous miscarriage not managed surgically. In the current pregnancy, she received two doses of antenatal corticosteroids on December 14th and 15th.
+On December 18th, pelviabdominal MRI demonstrated a viable single intrauterine pregnancy in cephalic presentation with unremarkable placental location and attachment. Compression of the left ovarian and left common iliac veins by the gravid uterus was identified, with associated venous dilatation and slowing of flow. Extensive dilated, tortuous tubular lesions consistent with varicosities were observed throughout the pelvic, perivesical, perineal, and gluteal regions — more prominent on the left — exhibiting a classic "bag of worms" appearance. Similar lesions were identified in the subcutaneous tissue of both breasts. The urinary bladder contained blood. The liver was mildly enlarged with vascular compression, while the gallbladder, spleen, and kidneys were unremarkable. Minimal bilateral pleural effusion was also noted.
 
-On admission, vital signs were stable: blood pressure 120/80 mmHg, temperature 36.2°C, and heart rate 68 bpm. Physical examination revealed port-wine stains over the back and gluteal region, with discrepancy in lower limb length bilaterally.
+On December 21st, a pelviabdominal ultrasonography, color Doppler of bilateral lower limb veins, and duplex arterial studies were performed. Ultrasonography demonstrated hepatosplenomegaly, soft tissue lesions within the urinary bladder, and bilateral refluxing parametrial venous channels, with a single viable intrauterine fetus confirmed. Lower limb vascular studies revealed a normal venous and arterial system with no evidence of deep vein thrombosis.
 
-A complete blood count (CBC) demonstrated microcytic hypochromic anemia (hemoglobin 7.0 g/dL, hematocrit 23.0%) and thrombocytopenia (128,000/µL). She received six units of packed red blood cells (pRBCs) to correct her declining hemoglobin. Blood typing identified B-positive blood group, and viral serology was negative for hepatitis B, hepatitis C, and HIV.
-
-Obstetric ultrasonography revealed an estimated fetal weight below the 10th percentile, consistent with intrauterine growth restriction (IUGR), and absent end-diastolic flow on umbilical artery Doppler. Urological consultation was obtained for management of severe hematuria, with initial measures comprising intravenous tranexamic acid and insertion of a three-way indwelling silicone urinary catheter maintained for one week.
-
-On December 18th, pelviabdominal MRI demonstrated a viable single intrauterine pregnancy in cephalic presentation with unremarkable placental location and attachment. Compression of the left ovarian and left common iliac veins by the gravid uterus was identified, with associated venous dilatation and slowing of flow. Extensive dilated, tortuous tubular lesions consistent with varicosities were observed throughout the pelvic, perivesical, perineal, and gluteal regions — more prominent on the left — exhibiting a classic "bag of worms" appearance. Similar lesions were identified in the bilateral breast subcutaneous tissue. The urinary bladder contained blood products. The liver was mildly enlarged with vascular compression, while the gallbladder, spleen, and kidneys were unremarkable. Minimal bilateral pleural effusion was also noted.
-
-On December 21st, pelviabdominal ultrasonography, color Doppler of bilateral lower limb veins, and duplex arterial studies were performed. Ultrasonography demonstrated hepatosplenomegaly, soft tissue lesions within the urinary bladder, and bilateral refluxing parametrial venous channels, with a single viable intrauterine fetus confirmed. Lower limb vascular studies revealed a normal venous and arterial system with no evidence of deep vein thrombosis.
-
-Serial CBCs over the four days following transfusion showed progressive improvement in hemoglobin, reaching 9.4 g/dL on December 22nd, while platelet count remained persistently low, ranging between 82,000 and 104,000/µL. Iron studies revealed elevated unsaturated iron-binding capacity (UIBC) and reduced transferrin saturation. Lactate dehydrogenase (LDH) was elevated at 454 IU/L. Urinalysis on the same day demonstrated hematuria (2+), pyuria, and mild proteinuria (1+); microscopic examination showed \>100 red blood cells per high-power field (RBCs/HPF), 40–45 pus cells/HPF, increased epithelial cells (2+), and uric acid crystals (2+). Coagulation studies on December 27th and 28th revealed mildly elevated prothrombin time (PT), while serum creatinine remained low.
+Serial CBCs over the four days following transfusion showed slight improvement in hemoglobin, reaching 9.4 g/dL on December 22nd, while platelet count remained persistently low, ranging between 82,000 and 104,000/µL. Iron studies revealed elevated unsaturated iron-binding capacity (UIBC) and reduced transferrin saturation. Lactate dehydrogenase (LDH) was elevated at 454 IU/L. Urinalysis on the same day demonstrated hematuria (2+), pyuria, and mild proteinuria (1+); microscopic examination showed \>100 red blood cells per high-power field (RBCs/HPF), 40–45 pus cells/HPF, increased epithelial cells (2+), and uric acid crystals (2+). Coagulation studies on December 27th and 28th revealed mildly elevated prothrombin time (PT), while serum creatinine remained low.
 
 Contrast-enhanced pelvic MRI on January 1st demonstrated extensive venous malformations involving the cervix, vagina, anal canal, perineum, and bilateral labia, with additional lesions in the gluteal region, thighs, anterior abdominal wall, and intravesically.
 
@@ -79,6 +71,8 @@ On postoperative day four, coagulation studies revealed hypofibrinogenemia (fibr
 Urinalysis on day six demonstrated persistent hematuria (2+), mild pyuria, and mild proteinuria (1+), with microscopic examination showing \>100 RBCs/HPF, 13–15 pus cells/HPF, and increased epithelial cells (1+). By day seven, hemoglobin had stabilized at 10.1 g/dL and remained stable over the subsequent three days, though thrombocytopenia persisted at 64,000/µL.
 
 Following clinical stabilization, the patient was discharged on postoperative day ten. At her outpatient review on day nineteen, she was in satisfactory general condition with a soft, lax abdomen; skin sutures were removed and the abdominal wound demonstrated optimal healing.
+
+@tbl-1 shows the full clinical timeline in chronological order.
 
 +-----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Date                                                      | Timeline                                                                                                                                                 |
@@ -106,16 +100,14 @@ Following clinical stabilization, the patient was discharged on postoperative da
 |                                                           | **Day 19:** Outpatient follow-up: fair general condition; sutures removed                                                                                |
 +-----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-: Patient timeline {#tbl-1}
+: Patient timeline
 
 +-------------------------+--------------------------------+-------------+-------------+---------+---------+--------+--------+-----------------+
 | Parameters/Timing       | December 16 (Day of admission) | December 22 | December 28 | POD 1   | POD 2   | POD 4  | POD 6  | Reference range |
 +:========================+:===============================+:============+:============+:========+:========+:=======+:=======+:================+
-| Hb (g/dL)               | 7.0                            | 7.6         | 10.2        | 9.6     | 7.6     | 8.6    | 10.0   | 12.0-15.0       |
+| Hb (g/dL)               | 7.0                            | 9.4         | 10.2        | 9.6     | 7.6     | 8.6    | 10.0   | 12.0-15.0       |
 +-------------------------+--------------------------------+-------------+-------------+---------+---------+--------+--------+-----------------+
-| HCT (%)                 | 23.0                           | 23.5        | 33.1        | 20.0    | 21.8    | 26.8   | 30.8   | 36-46           |
-+-------------------------+--------------------------------+-------------+-------------+---------+---------+--------+--------+-----------------+
-| Platelets (/µL)         | 128,000                        | 97,000      | 129,000     | 218,000 | 104,000 | 75,000 | 64,000 | 150,000–410,000 |
+| Platelets (per µL)      | 128,000                        | 97,000      | 129,000     | 218,000 | 104,000 | 75,000 | 64,000 | 150,000–410,000 |
 +-------------------------+--------------------------------+-------------+-------------+---------+---------+--------+--------+-----------------+
 | PT (seconds)            | \-                             | \-          | 12.4        | 40.70   | \-      | \-     | 17.7   | 11.7–15.3       |
 +-------------------------+--------------------------------+-------------+-------------+---------+---------+--------+--------+-----------------+
@@ -126,7 +118,7 @@ Following clinical stabilization, the patient was discharged on postoperative da
 | LDH (IU/L)              | \-                             | 454         | \-          | 424     | 357     | \-     | 449    | 140–271         |
 +-------------------------+--------------------------------+-------------+-------------+---------+---------+--------+--------+-----------------+
 
-: Laboratory results throughout the clinical course {#tbl-2}
+: Laboratory results throughout the clinical course
 
 POD: Post operative day, Hb: Hemoglobin, HTC: Hematocrit, PT: Prothrombin time, ALP: Alkaline phosphatase, LDH : Lactate dehydrogenase.
 
@@ -150,7 +142,7 @@ Summary of the three cases is shown in @tbl-3
 |                                 | Postpartum.                                     | Admitted on day 10 postpartum with severe postpartum hemorrahge, hemodynamic instability, ecchymoses, massive limb hypertrophy, varicosities |                                                                                                            |                                                                                            |                                    |
 +---------------------------------+-------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+------------------------------------+
 
-: Literature review {#tbl-3}
+: Literature review
 
 # Discussion
 
