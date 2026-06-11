@@ -15,7 +15,7 @@ format:
 execute:
   freeze: true
 
-editor: visual
+editor: source
 
 title: Klippel-Trenaunay Syndrome Complicated by Kasabach-Merritt Syndrome During Pregnancy
 subtitle: A case report and review of the literature
